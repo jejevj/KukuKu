@@ -1,4 +1,4 @@
-# KukuKu -Mobile App
+# KukuKu - Mobile App
 KukuKu Mobile App is an nail disease detection. We've made this app using CNN, Tensorflow, Kotlin and Google Cloud Platform development for fullfill the final capstone submission at Bangkit 2023!
 
 [![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxiaJVzT5W7BbUZ4rjWEr8DrPmn0xsrqRkuK540CSn1N8Hd7xAr59gTRr8ZdhrocUKb8&usqp=CAU)](https://www.dicoding.com/programs/bangkit)
