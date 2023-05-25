@@ -9,16 +9,18 @@ from PIL import Image
 
 from flask import Flask, request, jsonify
 from keras.utils import img_to_array
-model = keras.models.load_model('./CNN_aug_best_weights_(2).h5')
+model = keras.models.load_model('./my_model.h5')
 
-class = ['Acral Lentiginous Melanoma', 'Beaus Line', 'Blue Finger', 'Clubbing', 'Healthy Nail', 'Koilonychia', 'Muehrckes Lines', 'Onychogryphosis', 'Pitting', 'Terry-s Nail']
+nail_class = ['Acral Lentiginous Melanoma', 'Beaus Line', 'Blue Finger', 'Clubbing', 'Healthy Nail', 'Koilonychia', 'Muehrckes Lines', 'Onychogryphosis', 'Pitting', 'Terry-s Nail']
 description = []
+
+image_dim = 224
 
 def transform_image(pillow_image):
     data = img_to_array(pillow_image)
     data = np.expand_dims(data, axis = 0)
     data = data / 255.
-    data = tf.image.resize(data, [300, 300])
+    data = tf.image.resize(data, [image_dim, image_dim])
     
     return data
 
@@ -26,7 +28,6 @@ def transform_image(pillow_image):
 def predict(x):
     predictions = model(x)
     predictions = tf.nn.softmax(predictions)
-    #print("pass prdict")
     pred0 = predictions[0]
     label0 = np.argmax(pred0)
     return label0
@@ -49,8 +50,8 @@ def index():
 
         try:
             prediction = process_file(file)
-            
-            data = {"prediction": class[prediction], "description": description[prediction]}
+            print(nail_class[prediction])
+            data = {"prediction": nail_class[prediction]}
             return jsonify(data)
         except Exception as e:
             return jsonify({"error": str(e)})
@@ -59,4 +60,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=8080)
