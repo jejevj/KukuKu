@@ -1,19 +1,21 @@
+from flask import Flask, jsonify, request
+from google.cloud import storage
+from db_connect import db_connection
+from google.oauth2 import service_account
+import os
+from flask import Flask, render_template, jsonify
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.preprocessing import image
-from flask import Flask, request, jsonify
-from google.cloud import storage
-import os
-from db_connect import db_connection
 
-app = Flask(__name__)
+model1 = tf.keras.models.load_model('ml_model/keras_model.h5')
+model2 = tf.keras.models.load_model('ml_model/my_model.h5')
 
-model1 = tf.keras.models.load_model('keras_model.h5')
-model2 = tf.keras.models.load_model('my_model.h5')
+credentials = service_account.Credentials.from_service_account_file('key.json')
 
-storage_client = storage.Client()
+client = storage.Client(credentials=credentials)
 bucket_name = 'kukuku-capstone-project-upload'
-bucket = storage_client.bucket(bucket_name)
+bucket = client.bucket(bucket_name)
 
 def download_image_from_storage(bucket_name, file_name):
     blob = bucket.blob(file_name)
@@ -32,10 +34,24 @@ def predict_image(image, model):
     prediction = model.predict(image)
     return prediction
 
-@app.route('/', methods=['GET'])
-def home_base():
-    return jsonify({'message': 'server is running'})
 
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello():
+    """Return a friendly HTTP greeting."""
+    message = "It's running!"
+
+    """Get Cloud Run environment variables."""
+    service = os.environ.get('K_SERVICE', 'Unknown service')
+    revision = os.environ.get('K_REVISION', 'Unknown revision')
+
+    return render_template('index.html',
+        message=message,
+        Service=service,
+        Revision=revision)
+    
 @app.route('/predict', methods=['POST'])
 def predict():
     file = request.files.get('file')
@@ -82,20 +98,28 @@ def predict():
         os.remove(image_path) 
         return jsonify(response)
     except Exception as e:
-        return str(e), 500
-
+        return jsonify({'error': str(e)}), 500
+    
+        
 @app.route('/data', methods=['GET'])
 def get_data():
+    
     connection = db_connection()
+    
     try:
         with connection.cursor() as cursor:
-            sql = 'SELECT * FROM penyakit;'
+            sql = f"SELECT * FROM penyakit;"
             cursor.execute(sql)
             result = cursor.fetchall()
-            return jsonify(result)
+            
+            response = {
+                'data': result
+            }
     finally:
         connection.close()
-
+        
+    return jsonify(response)
 
 if __name__ == '__main__':
-    app.run()
+    server_port = os.environ.get('PORT', '8080')
+    app.run(debug=True, port=server_port, host='0.0.0.0')
