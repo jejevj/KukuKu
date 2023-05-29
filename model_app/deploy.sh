@@ -5,7 +5,7 @@ API_NAME="model-api-run"
 gcloud builds submit \
   --tag gcr.io/$GOOGLE_CLOUD_PROJECT/$API_NAME
 
-gcloud run deploy pdf-converter \
+gcloud run deploy $API_NAME \
   --image gcr.io/$GOOGLE_CLOUD_PROJECT/$API_NAME \
   --platform managed \
   --region us-central1 \
