@@ -1,3 +1,2 @@
-.DS_Store
-.nodejs_folder
-.venv
+.dockerignore
+__pycache__
