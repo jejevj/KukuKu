@@ -39,18 +39,9 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
-    """Return a friendly HTTP greeting."""
-    message = "It's running!"
-
-    """Get Cloud Run environment variables."""
-    service = os.environ.get('K_SERVICE', 'Unknown service')
-    revision = os.environ.get('K_REVISION', 'Unknown revision')
-
-    return render_template('index.html',
-        message=message,
-        Service=service,
-        Revision=revision)
+def home_base():
+    return jsonify({'message:' 'server is running'})
+ 
     
 @app.route('/predict', methods=['POST'])
 def predict():
