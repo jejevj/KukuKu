@@ -1,7 +1,9 @@
 # KukuKu - Mobile App
 KukuKu Mobile App is an nail disease detection. We've made this app using CNN, Tensorflow, Kotlin and Google Cloud Platform development for fullfill the final capstone submission at Bangkit 2023!
 
-![My Image](./Image/bangkit.png)
+<p align="center">
+  <img src="./Image/bangkit.png">
+</p>
 
 In this repository we've already push the code and working together to pass the bangkit capstone project. Before we explain this project for the details, let we introduce our self:
 ## Team Member
@@ -13,7 +15,9 @@ In this repository we've already push the code and working together to pass the 
 6.	A037DSX1087 - [J Angga Wijaya](https://github.com/jejevj) - Mobile Developer
 
 ## Our Logo Apps
-![My Image](./Image/logo_KukuKu.png)
+<p align="center">
+  <img src="./Image/logo_KukuKu.png">
+</p>
 
 ## Project Details
 Disease detection based on nail conditions is a machine learning project to create a model that can detect types of disease symptoms based on nail images. Self-awareness about health is often ignored by society. Most people don’t have self awareness that something as insignificant as a nail may indicate something more serious. Nail diseases are very common and may be left unnoticed until serious health impacts start to appear. This app will provide a convenient and easily accessible solution for detection of nail disease. For this project, we will use an already available dataset on nail diseases provided here (https://universe.roboflow.com/knm/nail-disease-detection-mxoqy/). At the training stage, our model is trained using a dataset consisting of 6363 nail images, with 9 classes of disease types which will then be processed to create a model. Then we will evaluate the performance of the model to find out whether the model created has good accuracy in all types of classes. The results of this model will then be integrated into a mobile application which will be easy for users to use. This application will help to take pictures and analyze the user's nail images. That way, our model can provide information in early detection of disease based on the condition of their nails. 
