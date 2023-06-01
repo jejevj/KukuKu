@@ -13,7 +13,7 @@ In this repository we've already push the code and working together to pass the 
 6.	A037DSX1087 - [J Angga Wijaya](https://github.com/jejevj) - Mobile Developer
 
 ## Our Logo Apps
-![My Image](./Image/logo KukuKu.png)
+![My Image](./Image/logo_KukuKu.png)
 
 ## Project Details
 Machine Learning part: On the part of the machine learning team, our role in the nail health detection project is primarily to create a machine learning model that can detect both healthy and unhealthy nails. The machine learning team will create the detection model using the convolutional neural network (CNN) algorithm and then we will deploy it using Tensorflow lite.
