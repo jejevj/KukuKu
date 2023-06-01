@@ -13,7 +13,11 @@ In this repository we've already push the code and working together to pass the 
 6.	A037DSX1087 - J Angga Wijaya (MD)
 
 ### Project Details
-...N/A
+Machine Learning part: On the part of the machine learning team, our role in the nail health detection project is primarily to create a machine learning model that can detect both healthy and unhealthy nails. The machine learning team will create the detection model using the convolutional neural network (CNN) algorithm and then we will deploy it using Tensorflow lite.
+
+Cloud Computing part: The backend/cloud part of the project involves creating a Cloud Storage bucket for image storage and creating endpoint routes using either NodeJS hapi-server or Python Flask. After local testing, a Docker configuration will be created and Cloud Build will be used to containerize the application and upload it to the Container Registry. Finally, the container will be deployed on Cloud Run for public access.
+
+Mobile Development part: The backend/cloud part of the project involves creating a Cloud Storage bucket for image storage and creating endpoint routes using either NodeJS hapi-server or Python Flask. After local testing, a Docker configuration will be created and Cloud Build will be used to containerize the application and upload it to the Container Registry. Finally, the container will be deployed on Cloud Run for public access.
 
 ### Technology / Tools
  Tools we've used:
