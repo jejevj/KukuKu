@@ -52,7 +52,7 @@ fun DessertApp(
 //                TopBar(navController = navController, modifier = modifier.padding(start = 10.dp))
                 Column(modifier = Modifier.fillMaxWidth()) {
                     AsyncImage(
-                        model = "https://i.ibb.co/KLSbM5q/header.png",
+                        model = "https://i.ibb.co/xYc5bCJ/top.png",
                         contentDescription = "header",
                         contentScale = ContentScale.FillWidth,
                 modifier = modifier.fillMaxWidth()
