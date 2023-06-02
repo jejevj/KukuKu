@@ -54,10 +54,10 @@ com.capstoneproject.kukuku.app-camera-extensions-1.2.2-52 /Users/janggawijaya/.g
 com.capstoneproject.kukuku.app-ui-tooling-1.2.0-53 /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/res
 com.capstoneproject.kukuku.app-coil-base-2.2.0-54 /Users/janggawijaya/.gradle/caches/transforms-3/f39ab9cd88c8f4b02503819d20b496a5/transformed/coil-base-2.2.0/res
 com.capstoneproject.kukuku.app-animation-core-1.1.1-55 /Users/janggawijaya/.gradle/caches/transforms-3/f677ebdd137f8c95b253d410f692335e/transformed/animation-core-1.1.1/res
-com.capstoneproject.kukuku.app-resValues-56 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/build/generated/res/resValues/debug
-com.capstoneproject.kukuku.app-rs-57 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/build/generated/res/rs/debug
-com.capstoneproject.kukuku.app-packageDebugResources-58 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.capstoneproject.kukuku.app-packageDebugResources-59 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.capstoneproject.kukuku.app-merged_res-60 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/build/intermediates/merged_res/debug
-com.capstoneproject.kukuku.app-debug-61 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/debug/res
-com.capstoneproject.kukuku.app-main-62 /Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/res
+com.capstoneproject.kukuku.app-resValues-56 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/build/generated/res/resValues/debug
+com.capstoneproject.kukuku.app-rs-57 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/build/generated/res/rs/debug
+com.capstoneproject.kukuku.app-packageDebugResources-58 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.capstoneproject.kukuku.app-packageDebugResources-59 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.capstoneproject.kukuku.app-merged_res-60 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/build/intermediates/merged_res/debug
+com.capstoneproject.kukuku.app-debug-61 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/debug/res
+com.capstoneproject.kukuku.app-main-62 /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/res

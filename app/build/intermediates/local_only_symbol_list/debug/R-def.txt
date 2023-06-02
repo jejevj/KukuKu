@@ -15,6 +15,7 @@ drawable ic_launcher_foreground
 drawable logo
 drawable profile_background
 drawable profile_pic
+drawable splash_screen
 drawable transparent_image
 mipmap ic_launcher
 mipmap ic_launcher_foreground

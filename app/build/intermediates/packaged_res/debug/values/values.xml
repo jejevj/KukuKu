@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="fab">#39CCCA</color>
-    <color name="primary_text">#27AAA7</color>
+    <color name="fab">#88BBD6</color>
+    <color name="primary_text">#6096B4</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -26,6 +26,6 @@
         <item name="android:windowBackground">@color/black</item>
     </style>
     <style name="Theme.KukukuApplication" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/fab</item>
     </style>
 </resources>

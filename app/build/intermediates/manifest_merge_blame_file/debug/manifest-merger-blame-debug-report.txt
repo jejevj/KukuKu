@@ -6,29 +6,29 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
+8-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
+9-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:5-66
-11-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:5-64
-12-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:22-62
+12-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:5-64
+12-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:22-62
 13    <uses-permission
-13-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:5-107
+13-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:5-107
 14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-14-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:22-78
+14-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:22-78
 15        android:maxSdkVersion="28" />
-15-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:79-105
+15-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:79-105
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:5-79
-16-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:22-77
+16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:5-79
+16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:22-77
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-60
-18-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-57
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-60
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-57
 19
 20    <queries>
 20-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:22:5-26:15
@@ -41,63 +41,63 @@
 24    </queries>
 25
 26    <application
-26-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:11:5-40:19
+26-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:11:5-40:19
 27        android:allowBackup="true"
-27-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:9-35
+27-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.8.0] /Users/janggawijaya/.gradle/caches/transforms-3/6cf5fc98dcf2c407a9d6dba206591ce4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:13:9-65
+29-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:13:9-65
 30        android:debuggable="true"
 31        android:fullBackupContent="@xml/backup_rules"
-31-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:9-54
+31-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:9-54
 32        android:icon="@mipmap/ic_launcher"
-32-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:15:9-43
+32-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:15:9-43
 33        android:label="@string/app_name"
-33-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:16:9-41
+33-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:16:9-41
 34        android:supportsRtl="true"
-34-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:17:9-35
+34-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:17:9-35
 35        android:testOnly="true"
 36        android:theme="@style/Theme.KukukuApplication" >
-36-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:18:9-55
+36-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:18:9-55
 37        <activity
-37-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:20:9-30:20
+37-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:20:9-30:20
 38            android:name="com.capstoneproject.kukuku.MainActivity"
-38-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:21:13-41
+38-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:21:13-41
 39            android:exported="true"
-39-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:22:13-36
+39-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:22:13-36
 40            android:label="@string/app_name"
-40-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:23:13-45
+40-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:23:13-45
 41            android:theme="@style/Theme.KukukuApplication" >
-41-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:13-59
+41-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:13-59
 42            <intent-filter>
-42-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-29:29
+42-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-29:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:17-69
-43-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:25-66
+43-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:17-69
+43-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:17-77
-45-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:27-74
+45-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:17-77
+45-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:27-74
 46            </intent-filter>
 47        </activity>
 48
 49        <provider
-49-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:31:9-39:20
+49-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:31:9-39:20
 50            android:name="androidx.core.content.FileProvider"
-50-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:13-62
+50-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:13-62
 51            android:authorities="com.capstoneproject.kukuku"
-51-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-61
+51-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-61
 52            android:exported="false"
-52-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-37
+52-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-37
 53            android:grantUriPermissions="true" >
-53-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:35:13-47
+53-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:35:13-47
 54            <meta-data
-54-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:36:13-38:54
+54-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:36:13-38:54
 55                android:name="android.support.FILE_PROVIDER_PATHS"
-55-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:37:17-67
+55-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:37:17-67
 56                android:resource="@xml/file_paths" />
-56-->/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:17-51
+56-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:17-51
 57        </provider>
 58
 59        <activity

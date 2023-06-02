@@ -152,6 +152,10 @@
         "source": "com.capstoneproject.kukuku.app-main-63:/drawable/transparent_image.xml"
     },
     {
+        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_splash_screen.jpg.flat",
+        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/splash_screen.jpg"
+    },
+    {
         "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_ic_baseline_photo_camera_24.xml.flat",
         "source": "com.capstoneproject.kukuku.app-main-63:/drawable/ic_baseline_photo_camera_24.xml"
     },

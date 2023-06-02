@@ -4,7 +4,7 @@
             "outputFile": "com.capstoneproject.kukuku.app-mergeDebugResources-59:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "/Users/janggawijaya/Documents/Bangkit Capstone/Kukuku/app/src/main/res/values-v31/themes.xml",
+                    "source": "/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/res/values-v31/themes.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",

@@ -686,6 +686,7 @@ int drawable notification_tile_bg 0x7f070067
 int drawable notify_panel_notification_icon_bg 0x7f070068
 int drawable profile_background 0x7f070069
 int drawable profile_pic 0x7f07006a
+int drawable splash_screen 0x7f07006f
 int drawable test_level_drawable 0x7f07006b
 int drawable tooltip_frame_dark 0x7f07006c
 int drawable tooltip_frame_light 0x7f07006d
