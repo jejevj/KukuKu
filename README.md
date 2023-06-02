@@ -26,7 +26,7 @@ Create a machine learning model that can detect both healthy and unhealthy nails
 
 ## Directory Structure
 
-- **eda.ipynb** is a jupyter notebook has contains script for unziping dataset and exploratory data analysis proses.
+- **eda.ipynb** is a jupyter notebook has contains script for unziping dataset and exploratory data analysis process.
 - **modeling.py** is a python script has contains function  can declarating architecture cnn algorithm,training process and evaluate model.
 - **convert_model.py** is a python script has contains a function which can convert model h5 format to tflite format.
 - **inference_model.ipynb** is a jupyter notebook has contains function can be trying the model using other image from outside the dataset.
