@@ -6,6 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.capstoneproject.kukuku.AnimationSplashScreen
 import com.capstoneproject.kukuku.KukuApp
+import com.capstoneproject.kukuku.ui.screen.profile.ProfileScreen
+import com.capstoneproject.kukuku.ui.screen.result.ResultScreen
 
 @Composable
 fun SetupNavGraph(navController: NavHostController){
@@ -17,7 +19,10 @@ fun SetupNavGraph(navController: NavHostController){
             KukuApp()
         }
         composable(route = Screen.Profile.route){
-
+            ProfileScreen(onBackClick = {})
+        }
+        composable(route = Screen.Result.route){
+            ResultScreen(onBackClick = {})
         }
     }
 }

@@ -36,6 +36,7 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
+import com.capstoneproject.kukuku.camera.PickImageFromCamera
 import com.capstoneproject.kukuku.ui.navigation.Screen
 import com.capstoneproject.kukuku.ui.screen.detail.DetailScreen
 import com.capstoneproject.kukuku.ui.screen.home.HomeScreen
@@ -99,25 +100,7 @@ fun KukuApp(
 //    MyUI()
 }
 
-@Composable
-fun PickImageFromCamera() {
 
-    var bitmap  by remember{ mutableStateOf<Bitmap?>(null)}
-
-    val launcher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.TakePicturePreview()){
-        bitmap = it
-    }
-        FloatingActionButton(
-            onClick = {
-                launcher.launch()
-            }, backgroundColor = colorResource(id = R.color.fab)) {
-
-            Icon(painter = painterResource(id = R.drawable.ic_baseline_photo_camera_24), contentDescription = "Camera", tint = Color.White)
-        }
-    Log.i("kilo", bitmap?.asImageBitmap().toString())
-
-}
 @Composable
 fun MyBottomBar() {
     // items list
