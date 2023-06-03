@@ -142,5 +142,17 @@ fun HomeListData(
                     )
                 }
             }
+
+
+            Text(
+                text = stringResource(id = R.string.makasih),
+                style = TextStyle(
+                    fontWeight = FontWeight.Normal,
+                    textAlign = TextAlign.Center,
+                    fontSize = 12.sp,
+                    color = colorResource(id = R.color.primary_text)
+                ),
+                modifier = Modifier.padding(start = 21.dp, end=20.dp)
+            )
         }
 }

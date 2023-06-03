@@ -1,11 +1,6 @@
 package com.capstoneproject.kukuku
 
-import android.graphics.Bitmap
-import android.util.Log
 import android.widget.Toast
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.result.launch
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -17,12 +12,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -41,6 +34,7 @@ import com.capstoneproject.kukuku.ui.navigation.Screen
 import com.capstoneproject.kukuku.ui.screen.detail.DetailScreen
 import com.capstoneproject.kukuku.ui.screen.home.HomeScreen
 import com.capstoneproject.kukuku.ui.screen.profile.ProfileScreen
+import com.capstoneproject.kukuku.ui.screen.result.ResultScreen
 import com.capstoneproject.kukuku.ui.theme.KukukuApplicationTheme
 
 @Composable
@@ -68,7 +62,7 @@ fun KukuApp(
             }
         },
         bottomBar = { MyBottomBar() },
-        floatingActionButton = { PickImageFromCamera()
+        floatingActionButton = { PickImageFromCamera(navController = navController)
         },
 
         isFloatingActionButtonDocked = true,
@@ -94,6 +88,9 @@ fun KukuApp(
             }
             composable(route = Screen.Profile.route) {
                 ProfileScreen(onBackClick = { navController.navigateUp() })
+            }
+            composable(route = Screen.Result.route) {
+                ResultScreen(onBackClick = { navController.navigateUp() })
             }
         }
     }

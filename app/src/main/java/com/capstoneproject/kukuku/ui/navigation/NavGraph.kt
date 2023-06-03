@@ -22,7 +22,7 @@ fun SetupNavGraph(navController: NavHostController){
             ProfileScreen(onBackClick = {})
         }
         composable(route = Screen.Result.route){
-            ResultScreen(onBackClick = {})
+            ResultScreen(onBackClick = {navController.navigateUp()})
         }
     }
 }

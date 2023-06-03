@@ -27,6 +27,7 @@ string app_name
 string hello_header
 string langkah
 string langkah_desc
+string makasih
 string step
 string step_below
 string tbk

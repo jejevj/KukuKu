@@ -989,6 +989,7 @@ string in_progress
 string indeterminate
 string langkah
 string langkah_desc
+string makasih
 string navigation_menu
 string not_selected
 string off
