@@ -33,6 +33,7 @@ MERGED from [androidx.compose.material:material-ripple:1.2.0] /Users/janggawijay
 MERGED from [androidx.compose.foundation:foundation:1.2.1] /Users/janggawijaya/.gradle/caches/transforms-3/b0c594b72b661e8387a66d5f721df58d/transformed/foundation-1.2.1/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.animation:animation:1.1.1] /Users/janggawijaya/.gradle/caches/transforms-3/8bef0ca12f5f9f5b878e68996c8bb5f7/transformed/animation-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3bdfd7ffa2e77b489694704010751469/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-extended:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/7c8b6d75b3f4f727f85337b1b4e211f0/transformed/material-icons-extended-1.2.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3556e54f507773a13325210513dd5fbf/transformed/material-icons-core-1.2.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.foundation:foundation-layout:1.2.1] /Users/janggawijaya/.gradle/caches/transforms-3/047266ddf9d7fa976cb10d7c02adee5d/transformed/foundation-layout-1.2.1/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/janggawijaya/.gradle/caches/transforms-3/f677ebdd137f8c95b253d410f692335e/transformed/animation-core-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -119,10 +120,10 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:22-77
-uses-feature#android.hardware.camera
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-60
+uses-feature#android.hardware.camera.any
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-64
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-57
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-61
 application
 ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:11:5-40:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:23:5-27:19
@@ -265,6 +266,8 @@ MERGED from [androidx.compose.animation:animation:1.1.1] /Users/janggawijaya/.gr
 MERGED from [androidx.compose.animation:animation:1.1.1] /Users/janggawijaya/.gradle/caches/transforms-3/8bef0ca12f5f9f5b878e68996c8bb5f7/transformed/animation-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3bdfd7ffa2e77b489694704010751469/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.compose.ui:ui-tooling-data:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3bdfd7ffa2e77b489694704010751469/transformed/ui-tooling-data-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material-icons-extended:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/7c8b6d75b3f4f727f85337b1b4e211f0/transformed/material-icons-extended-1.2.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.compose.material:material-icons-extended:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/7c8b6d75b3f4f727f85337b1b4e211f0/transformed/material-icons-extended-1.2.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3556e54f507773a13325210513dd5fbf/transformed/material-icons-core-1.2.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.compose.material:material-icons-core:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/3556e54f507773a13325210513dd5fbf/transformed/material-icons-core-1.2.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.compose.foundation:foundation-layout:1.2.1] /Users/janggawijaya/.gradle/caches/transforms-3/047266ddf9d7fa976cb10d7c02adee5d/transformed/foundation-layout-1.2.1/AndroidManifest.xml:20:5-21:38

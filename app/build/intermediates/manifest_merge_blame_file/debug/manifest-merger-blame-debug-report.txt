@@ -26,9 +26,9 @@
 16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:5-79
 16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:22-77
 17
-18    <uses-feature android:name="android.hardware.camera" />
-18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-60
-18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-57
+18    <uses-feature android:name="android.hardware.camera.any" />
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-64
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-61
 19
 20    <queries>
 20-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:22:5-26:15

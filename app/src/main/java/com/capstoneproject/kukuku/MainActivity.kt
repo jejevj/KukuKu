@@ -17,6 +17,7 @@ import androidx.navigation.compose.rememberNavController
 import com.capstoneproject.kukuku.ui.theme.KukukuApplicationTheme
 import com.capstoneproject.kukuku.ui.navigation.SetupNavGraph
 
+
 class MainActivity : ComponentActivity() {
 
     private val requestPermissionLauncher = registerForActivityResult(
@@ -45,7 +46,7 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     SetupNavGraph(navController = navController)
 //                    Splash(alpha = 1f)
-//                    DessertApp()
+//                    KukuApp()
 ////                    MyUI()
                 }
             }
@@ -68,4 +69,6 @@ class MainActivity : ComponentActivity() {
             else -> requestPermissionLauncher.launch(Manifest.permission.CAMERA)
         }
     }
+
+
 }

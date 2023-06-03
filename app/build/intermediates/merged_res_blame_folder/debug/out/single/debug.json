@@ -1,186 +1,186 @@
 [
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_profile.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_profile_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_profile.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_profile_background.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/drawable/profile_background.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_profile_background.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/drawable/profile_background.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_profile_pic.png.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable/profile_pic.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_profile.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/profile_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_logo.png.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/logo.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/profile_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_profile_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_logo.png.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable/logo.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_profile_pic.png.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/profile_pic.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/profile_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-anydpi-v26_profile_round.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-anydpi-v26/profile_round.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-anydpi-v26_profile_round.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-anydpi-v26/profile_round.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_profile_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-anydpi-v26_profile.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-anydpi-v26/profile.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_profile_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/profile_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/xml_backup_rules.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/xml/backup_rules.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/profile_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_profile_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/profile_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_profile_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_profile_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_splash_screen.jpg.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable/splash_screen.jpg"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/profile_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/xml_file_paths.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/xml/file_paths.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/profile_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/xml_file_paths.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/xml/file_paths.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_profile_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/xml_data_extraction_rules.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xhdpi_profile_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/profile_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-anydpi-v26_profile.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-anydpi-v26/profile.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/xml_backup_rules.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-mdpi_profile.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-mdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_profile_round.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxxhdpi_profile.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxxhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_transparent_image.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/transparent_image.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_splash_screen.jpg.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/splash_screen.jpg"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_ic_baseline_photo_camera_24.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/drawable/ic_baseline_photo_camera_24.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_transparent_image.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable/transparent_image.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/xml_data_extraction_rules.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-63:/xml/data_extraction_rules.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xxhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xxhdpi/profile_foreground.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/mipmap-xhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-63:/mipmap-xhdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-61:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-debug-62:/drawable/ic_launcher_background.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-62:/drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-64:/drawable/ic_baseline_photo_camera_24.xml"
     }
 ]
