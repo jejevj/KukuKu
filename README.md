@@ -3,7 +3,7 @@ KukuKu Mobile App is an nail disease detection. We've made this app using CNN, T
 
 ## Demo
 <p align="left">
-  <img src="./video/demo.gif">
+  <img src="./video/demo.gif" width="170px">
 </p>
 
 ## Platform
