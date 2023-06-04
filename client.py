@@ -1,7 +1,8 @@
 from google.cloud import storage
 from google.oauth2 import service_account
+import os
 
-credential = service_account.Credentials.from_service_account_file('key.json')
-client = storage.Client(credentials=credential)
-bucket_name = 'kukuku-capstone-project-upload'
+
+client = storage.Client()
+bucket_name = os.environ.get('BUCKET_NAME')
 bucket = client.bucket(bucket_name)
