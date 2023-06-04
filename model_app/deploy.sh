@@ -9,7 +9,7 @@ gcloud run deploy $API_NAME \
   --image gcr.io/$GOOGLE_CLOUD_PROJECT/$API_NAME \
   --platform managed \
   --region $REGION \
-  --cpu=8 \
-  --memory=16Gi \
+  --cpu=1 \
+  --memory=2Gi \
   --allow-unauthenticated \
   --min-instances=1
