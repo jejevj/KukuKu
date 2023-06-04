@@ -1,0 +1,95 @@
+from flask import jsonify, request
+import os
+import numpy as np
+from tensorflow.keras.preprocessing import image
+from model import model1, model2
+from client import client, bucket, bucket_name
+from db_connect import db_connection
+
+
+def download_image_from_storage(bucket_name, file_name):
+    blob = bucket.blob(file_name)
+    temp_image_path = '/tmp/' + file_name
+    blob.download_to_filename(temp_image_path)
+    return temp_image_path
+
+def transform_image(file_image):
+    img = image.load_img(file_image, target_size=(224, 224))
+    img_array = image.img_to_array(img)
+    img_array = np.expand_dims(img_array, axis=0)
+    img_array /= 255.
+    return img_array
+
+def predict_image(image, model):
+    prediction = model.predict(image)
+    return prediction
+
+def home():
+    response = jsonify({'message': 'Server is running'})
+    return response, 200
+
+def predict():
+    file = request.files.get('file')
+    
+    if file is None:
+        response = jsonify({'message': 'No file uploaded'})
+        return response, 400
+    
+    # Upload image to Storage
+    blob = bucket.blob(file.filename)
+    blob.upload_from_file(file)
+    
+    nail_classes = ['Acral Lentiginous Melanoma', "Beau's Line", 'Blue Finger', 'Clubbing', 'Healthy Nail', 'Koilonychia', "Muehrcke's Lines", 'Onychogryphosis', 'Pitting', 'Terry Nails']
+    
+    try:
+        image_path = download_image_from_storage(bucket_name, file.filename)
+        prediction = predict_image(transform_image(image_path), model1)
+        predicted_class = np.argmax(prediction)
+        
+        if predicted_class == 0:
+            prediction = predict_image(transform_image(image_path), model2)
+            predicted_class = np.argmax(prediction)
+            prediction_label = nail_classes[predicted_class]
+            accuracy = prediction[0][predicted_class] * 100.0
+            
+            connection = db_connection()
+            
+            try:
+                with connection.cursor() as cursor:
+                    sql = f"SELECT nama_penyakit, deskripsi, gejala, resiko, tips FROM penyakit_kuku WHERE nama_penyakit = '{prediction_label}';"
+                    cursor.execute(sql)
+                    result = cursor.fetchall()
+                    
+                    nama_penyakit = result[0]['nama_penyakit']
+                    deskripsi = result[0]['deskripsi']
+                    gejala = result[0]['gejala']
+                    resiko = result[0]['resiko'].split('\n')
+                    tips = result[0]['tips'].split('\n')
+                    
+                    data = {
+                        'nama_penyakit': nama_penyakit,
+                        'deskripsi': deskripsi,
+                        'gejala': gejala,
+                        'resiko': resiko,
+                        'tips': tips
+                    }
+                    
+                    response = {
+                        'result': 'nail',
+                        'prediction': prediction_label,
+                        'accuracy': accuracy,
+                        'data': data
+                    }
+            finally:
+                connection.close()
+        else:
+            response = {
+                'result': 'unrecognized'
+            }, 
+        os.remove(image_path)
+        return jsonify(response), 200
+    
+    
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
