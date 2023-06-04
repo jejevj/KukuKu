@@ -1,10 +1,10 @@
 from flask import jsonify, request
 from tensorflow.keras.preprocessing import image
 from model import model1, model2
+from client import bucket, bucket_name
+from db_connect import db_connection
 import os
 import numpy as np
-from client import client, bucket, bucket_name
-from db_connect import db_connection
 
 
 def download_image_from_storage(bucket_name, file_name):
