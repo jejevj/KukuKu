@@ -4,14 +4,25 @@ import os
 
 def db_connection():
     try:
+        # connection = pymysql.connect(
+        #     # host = os.environ.get('DB_HOST'),
+        #     host = '34.101.71.246',
+        #     user = os.environ.get('DB_USER'),
         connection = pymysql.connect(
-            host = os.environ.get('DB_HOST'),
-            user = os.environ.get('DB_USER'),
-            password = os.environ.get('DB_PASSWORD'),
-            database = os.environ.get('DB_NAME'),
-            charset = 'utf8mb4',
-            cursorclass = pymysql.cursors.DictCursor
+        # host = os.environ.get('DB_HOST'),
+        host = '34.101.71.246',
+        user = 'admin',
+        password = 'C23-PS120',
+        database = 'kukuku_db',
+        charset = 'utf8mb4',
+        cursorclass = pymysql.cursors.DictCursor
         )
+        # (
+        #     password = os.environ.get('DB_PASSWORD'),
+        #     database = os.environ.get('DB_NAME'),
+        #     charset = 'utf8mb4',
+        #     cursorclass = pymysql.cursors.DictCursor
+        # )
         print('Connected to the MySQL database')
         return connection
     except pymysql.Error as e:
