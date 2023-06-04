@@ -1,8 +1,8 @@
 from flask import jsonify, request
-import os
-import numpy as np
 from tensorflow.keras.preprocessing import image
 from model import model1, model2
+import os
+import numpy as np
 from client import client, bucket, bucket_name
 from db_connect import db_connection
 
