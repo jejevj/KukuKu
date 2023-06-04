@@ -22,7 +22,24 @@ fun SetupNavGraph(navController: NavHostController){
             ProfileScreen(onBackClick = {})
         }
         composable(route = Screen.Result.route){
-            ResultScreen(onBackClick = {navController.navigateUp()})
+            ResultScreen(onBackClick = {navController.navigateUp()},"")
+        }
+    }
+}
+@Composable
+fun SetupNavGraph2(navController: NavHostController){
+    NavHost(navController = navController, startDestination = Screen.Home.route){
+        composable(route = Screen.Splash.route){
+            AnimationSplashScreen(navController)
+        }
+        composable(route = Screen.Home.route){
+            KukuApp()
+        }
+        composable(route = Screen.Profile.route){
+            ProfileScreen(onBackClick = {})
+        }
+        composable(route = Screen.Result.route){
+            ResultScreen(onBackClick = {navController.navigateUp()},"")
         }
     }
 }

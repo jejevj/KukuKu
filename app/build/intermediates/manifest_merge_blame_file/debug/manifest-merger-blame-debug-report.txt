@@ -11,24 +11,24 @@
 9-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:5-67
 11-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:5-64
+12-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:5-65
 12-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:6:22-62
 13    <uses-permission
-13-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:5-107
+13-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:5-9:38
 14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-14-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:22-78
+14-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:9-65
 15        android:maxSdkVersion="28" />
-15-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:7:79-105
+15-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:9-35
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:5-79
-16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:8:22-77
+16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:10:22-77
 17
 18    <uses-feature android:name="android.hardware.camera.any" />
-18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:5-64
-18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:9:19-61
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:5-64
+18-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:19-61
 19
 20    <queries>
 20-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:22:5-26:15
@@ -40,155 +40,181 @@
 23        </intent>
 24    </queries>
 25
-26    <application
-26-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:11:5-40:19
-27        android:allowBackup="true"
-27-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.8.0] /Users/janggawijaya/.gradle/caches/transforms-3/6cf5fc98dcf2c407a9d6dba206591ce4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:13:9-65
-30        android:debuggable="true"
-31        android:fullBackupContent="@xml/backup_rules"
-31-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:9-54
-32        android:icon="@mipmap/ic_launcher"
-32-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:15:9-43
-33        android:label="@string/app_name"
-33-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:16:9-41
-34        android:supportsRtl="true"
-34-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:17:9-35
-35        android:testOnly="true"
-36        android:theme="@style/Theme.KukukuApplication" >
-36-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:18:9-55
-37        <activity
-37-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:20:9-30:20
-38            android:name="com.capstoneproject.kukuku.MainActivity"
-38-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:21:13-41
-39            android:exported="true"
-39-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:22:13-36
-40            android:label="@string/app_name"
-40-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:23:13-45
-41            android:theme="@style/Theme.KukukuApplication" >
-41-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:13-59
-42            <intent-filter>
-42-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-29:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:17-69
-43-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:17-77
-45-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:27-74
-46            </intent-filter>
-47        </activity>
-48
-49        <provider
-49-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:31:9-39:20
-50            android:name="androidx.core.content.FileProvider"
-50-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:13-62
-51            android:authorities="com.capstoneproject.kukuku"
-51-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-61
-52            android:exported="false"
-52-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-37
-53            android:grantUriPermissions="true" >
-53-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:35:13-47
-54            <meta-data
-54-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:36:13-38:54
-55                android:name="android.support.FILE_PROVIDER_PATHS"
-55-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:37:17-67
-56                android:resource="@xml/file_paths" />
-56-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:17-51
-57        </provider>
+26    <permission
+26-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.capstoneproject.kukuku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.capstoneproject.kukuku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:5-53:19
+33        android:allowBackup="true"
+33-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:15:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/janggawijaya/.gradle/caches/transforms-3/f415751d4b31846014da0cbf4de44ce2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:16:9-65
+36        android:debuggable="true"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:17:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:18:9-43
+39        android:label="@string/app_name"
+39-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:19:9-41
+40        android:supportsRtl="true"
+40-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:20:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.KukukuApplication" >
+42-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:21:9-55
+43        <activity
+43-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:9-31:20
+44            android:name="com.capstoneproject.kukuku.CameraActivity"
+44-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-43
+45            android:exported="false"
+45-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:13-37
+46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+46-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:27:13-69
+47            <meta-data
+47-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:13-30:36
+48                android:name="android.app.lib_name"
+48-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:29:17-52
+49                android:value="" />
+49-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:30:17-33
+50        </activity>
+51        <activity
+51-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:9-42:20
+52            android:name="com.capstoneproject.kukuku.MainActivity"
+52-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-41
+53            android:exported="true"
+53-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-36
+54            android:label="@string/app_name"
+54-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:35:13-45
+55            android:theme="@style/Theme.KukukuApplication" >
+55-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:36:13-59
+56            <intent-filter>
+56-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:37:13-41:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:17-69
+57-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:25-66
 58
-59        <activity
-59-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:24:9-26:39
-60            android:name="androidx.activity.ComponentActivity"
-60-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:25:13-63
-61            android:exported="true" />
-61-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:26:13-36
-62        <activity
-62-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39
-63            android:name="androidx.compose.ui.tooling.PreviewActivity"
-63-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:25:13-71
-64            android:exported="true" />
-64-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:26:13-36
-65
-66        <uses-library
-66-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:29:9-31:40
-67            android:name="androidx.camera.extensions.impl"
-67-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:30:13-59
-68            android:required="false" />
-68-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:31:13-37
-69
-70        <service
-70-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:24:9-33:19
-71            android:name="androidx.camera.core.impl.MetadataHolderService"
-71-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:25:13-75
-72            android:enabled="false"
-72-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:26:13-36
-73            android:exported="false" >
-73-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:27:13-37
-74            <meta-data
-74-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:30:13-32:89
-75                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-75-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:31:17-103
-76                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-76-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:32:17-86
-77        </service>
-78
-79        <provider
-79-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-80            android:name="androidx.startup.InitializationProvider"
-80-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-81            android:authorities="com.capstoneproject.kukuku.androidx-startup"
-81-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-82            android:exported="false" >
-82-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-83            <meta-data
-83-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-84-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-85                android:value="androidx.startup" />
-85-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-86            <meta-data
-86-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-87-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-88                android:value="androidx.startup" />
-88-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-89            <meta-data
-89-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
-90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-90-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
-91                android:value="androidx.startup" />
-91-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
-92        </provider>
-93
-94        <receiver
-94-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
-95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-95-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
-96            android:directBootAware="false"
-96-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
-97            android:enabled="true"
-97-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
-98            android:exported="true"
-98-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
-99            android:permission="android.permission.DUMP" >
-99-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
-100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
-101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
-101-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
-102            </intent-filter>
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
-104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
-104-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
-105            </intent-filter>
-106        </receiver>
-107    </application>
-108
-109</manifest>
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:40:17-77
+59-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:40:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:44:9-52:20
+64            android:name="androidx.core.content.FileProvider"
+64-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:45:13-62
+65            android:authorities="com.capstoneproject.kukuku"
+65-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:46:13-61
+66            android:exported="false"
+66-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:47:13-37
+67            android:grantUriPermissions="true" >
+67-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:48:13-47
+68            <meta-data
+68-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:49:13-51:54
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:50:17-67
+70                android:resource="@xml/file_paths" />
+70-->/Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:51:17-51
+71        </provider>
+72
+73        <activity
+73-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:24:9-26:39
+74            android:name="androidx.activity.ComponentActivity"
+74-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:25:13-63
+75            android:exported="true" />
+75-->[androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:26:13-36
+76        <activity
+76-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:24:9-26:39
+77            android:name="androidx.compose.ui.tooling.PreviewActivity"
+77-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:25:13-71
+78            android:exported="true" />
+78-->[androidx.compose.ui:ui-tooling:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/f1aa609ae7e045b1128482ee2ad4e0bc/transformed/ui-tooling-1.2.0/AndroidManifest.xml:26:13-36
+79
+80        <uses-library
+80-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:29:9-31:40
+81            android:name="androidx.camera.extensions.impl"
+81-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:30:13-59
+82            android:required="false" />
+82-->[androidx.camera:camera-extensions:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/eaec5d58e38af4927a0c45f6c5552ce6/transformed/camera-extensions-1.2.2/AndroidManifest.xml:31:13-37
+83
+84        <service
+84-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:24:9-33:19
+85            android:name="androidx.camera.core.impl.MetadataHolderService"
+85-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:25:13-75
+86            android:enabled="false"
+86-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:26:13-36
+87            android:exported="false" >
+87-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:30:13-32:89
+89                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+89-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:31:17-103
+90                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+90-->[androidx.camera:camera-camera2:1.2.2] /Users/janggawijaya/.gradle/caches/transforms-3/56ea253879f67817d6eb3262ad3233ea/transformed/camera-camera2-1.2.2/AndroidManifest.xml:32:17-86
+91        </service>
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+95            android:authorities="com.capstoneproject.kukuku.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c45a6d5622e6f02be002cc66bd3efe0f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/dd89b59c0c62811b641f994b697a45ef/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+103            <meta-data
+103-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+104-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+105                android:value="androidx.startup" />
+105-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+106        </provider>
+107
+108        <receiver
+108-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+109            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+110            android:directBootAware="false"
+110-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+111            android:enabled="true"
+111-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+112            android:exported="true"
+112-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+113            android:permission="android.permission.DUMP" >
+113-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+115                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+115-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+118                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+118-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/a486ab6ab8b18e5fc73a60c6c3e893f2/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+119            </intent-filter>
+120        </receiver>
+121    </application>
+122
+123</manifest>

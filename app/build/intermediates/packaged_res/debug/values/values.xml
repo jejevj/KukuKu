@@ -14,8 +14,11 @@
     <string name="langkah">Cara Menggunakan KukuKu!</string>
     <string name="langkah_desc">Perhatikan bahwa gambar yang anda masukkan adalah gambar kuku yang terlihat dengan jelas.</string>
     <string name="makasih">Terima kasih sudah mengguunakan aplikasi KukuKu.</string>
+    <string name="start_capture">Start Capture</string>
     <string name="step">Step to Use App!</string>
     <string name="step_below">Check that your input picture is clear and easy to see!</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="take_photo">Take Photo</string>
     <string name="tbk">Tips Before Knowing Yours!</string>
     <string name="tbk_below">Choose Tips For Keep Your Nails Healthy!</string>
     <string name="thankyou">Thankyou for using KukuKu App!</string>

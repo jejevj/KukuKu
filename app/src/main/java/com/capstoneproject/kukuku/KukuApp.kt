@@ -1,20 +1,18 @@
 package com.capstoneproject.kukuku
 
-import android.widget.Toast
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
@@ -25,10 +23,6 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.compose.AsyncImage
-import com.airbnb.lottie.compose.LottieAnimation
-import com.airbnb.lottie.compose.LottieCompositionSpec
-import com.airbnb.lottie.compose.animateLottieCompositionAsState
-import com.airbnb.lottie.compose.rememberLottieComposition
 import com.capstoneproject.kukuku.camera.PickImageFromCamera
 import com.capstoneproject.kukuku.ui.navigation.Screen
 import com.capstoneproject.kukuku.ui.screen.detail.DetailScreen
@@ -90,7 +84,7 @@ fun KukuApp(
                 ProfileScreen(onBackClick = { navController.navigateUp() })
             }
             composable(route = Screen.Result.route) {
-                ResultScreen(onBackClick = { navController.navigateUp() })
+                ResultScreen(onBackClick = { navController.navigateUp() },"" )
             }
         }
     }
@@ -103,10 +97,8 @@ fun MyBottomBar() {
     // items list
     val bottomMenuItemsList = prepareBottomMenu()
 
-    val contextForToast = LocalContext.current.applicationContext
-
     var selectedItem by remember {
-        mutableStateOf("Home")
+        mutableStateOf("home")
     }
 
     BottomAppBar(
@@ -131,10 +123,10 @@ fun MyBottomBar() {
                 selected = (selectedItem == menuItem.label),
                 onClick = {
                     selectedItem = menuItem.label
-                    Toast.makeText(
-                        contextForToast,
-                        menuItem.label, Toast.LENGTH_SHORT
-                    ).show()
+//                    Toast.makeText(
+//                        contextForToast,
+//                        menuItem.label, Toast.LENGTH_SHORT
+//                    ).show()
                 },
                 icon = {
                     Icon(
@@ -152,8 +144,8 @@ private fun prepareBottomMenu(): List<BottomMenuItem> {
     val bottomMenuItemsList = arrayListOf<BottomMenuItem>()
 
     // add menu items
-    bottomMenuItemsList.add(BottomMenuItem(label = "Home", icon = Icons.Filled.Home))
-    bottomMenuItemsList.add(BottomMenuItem(label = "Profile", icon = Icons.Filled.Info))
+    bottomMenuItemsList.add(BottomMenuItem(label = "home", icon = Icons.Filled.Home))
+    bottomMenuItemsList.add(BottomMenuItem(label = "profile", icon = Icons.Filled.Info))
 
     return bottomMenuItemsList
 }
@@ -161,47 +153,6 @@ private fun prepareBottomMenu(): List<BottomMenuItem> {
 
 
 data class BottomMenuItem(val label: String, val icon: ImageVector)
-
-@Composable
-fun SetupNavGraph(navController: NavHostController) {
-    NavHost(
-        navController = navController,
-        startDestination = Screen.Splash.route
-    ) {
-        composable(route = Screen.Splash.route) {
-            SplashScreen(navController = navController)
-        }
-        composable(route = Screen.Home.route) {
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(Color.White),
-                contentAlignment = Alignment.Center
-            ) {
-                Text(text = "Hello World", color = Color.Black)
-            }
-        }
-    }
-}
-@Composable
-fun SplashScreen(navController: NavHostController) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(MaterialTheme.colors.primary)
-    ) {
-        val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.drawable.logo))
-        val logoAnimationState =
-            animateLottieCompositionAsState(composition = composition)
-        LottieAnimation(
-            composition = composition,
-            progress = { logoAnimationState.progress }
-        )
-        if (logoAnimationState.isAtEnd && logoAnimationState.isPlaying) {
-            navController.navigate(Screen.Home.route)
-        }
-    }
-}
 
 
 @Preview(showBackground = true)

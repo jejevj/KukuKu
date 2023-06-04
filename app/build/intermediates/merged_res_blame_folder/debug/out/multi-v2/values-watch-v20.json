@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.capstoneproject.kukuku.app-mergeDebugResources-60:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.capstoneproject.kukuku.app-mergeDebugResources-67:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/janggawijaya/.gradle/caches/transforms-3/186bc2fc3ec55c7b1be3d9ef69d5456b/transformed/appcompat-1.5.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/janggawijaya/.gradle/caches/transforms-3/51d34e6fb42e7a1d828e2d40d2683e02/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

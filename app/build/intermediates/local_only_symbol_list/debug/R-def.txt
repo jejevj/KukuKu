@@ -17,6 +17,10 @@ drawable profile_background
 drawable profile_pic
 drawable splash_screen
 drawable transparent_image
+id image_capture_button
+id vertical_centerline
+id viewFinder
+layout activity_camera
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -28,8 +32,11 @@ string hello_header
 string langkah
 string langkah_desc
 string makasih
+string start_capture
 string step
 string step_below
+string stop_capture
+string take_photo
 string tbk
 string tbk_below
 string thankyou
