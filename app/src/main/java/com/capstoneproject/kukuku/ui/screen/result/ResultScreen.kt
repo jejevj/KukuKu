@@ -10,12 +10,15 @@ import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
+import com.capstoneproject.kukuku.ui.navigation.Screen
 
 @Composable
 fun ResultScreen(
     onBackClick:() -> Unit,
     path_url: String,
+    navController:NavHostController
 ) {
     LazyColumn(
         modifier = Modifier
@@ -29,7 +32,7 @@ fun ResultScreen(
                 modifier = Modifier
                     .padding(16.dp)
                     .clickable {
-                        
+                        navController.navigate(Screen.Home.route)
                     }
             )
             AsyncImage(model = path_url, contentDescription ="Oi" )

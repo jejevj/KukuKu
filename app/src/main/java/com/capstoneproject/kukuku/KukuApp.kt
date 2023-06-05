@@ -14,13 +14,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.compose.AsyncImage
 import com.capstoneproject.kukuku.camera.PickImageFromCamera
@@ -29,12 +27,11 @@ import com.capstoneproject.kukuku.ui.screen.detail.DetailScreen
 import com.capstoneproject.kukuku.ui.screen.home.HomeScreen
 import com.capstoneproject.kukuku.ui.screen.profile.ProfileScreen
 import com.capstoneproject.kukuku.ui.screen.result.ResultScreen
-import com.capstoneproject.kukuku.ui.theme.KukukuApplicationTheme
 
 @Composable
 fun KukuApp(
     modifier: Modifier = Modifier,
-    navController: NavHostController = rememberNavController(),
+    navController: NavHostController,
     ){
 
 //    val launcherIntentCamera = registerForActivityResult()
@@ -55,8 +52,19 @@ fun KukuApp(
                 }
             }
         },
-        bottomBar = { MyBottomBar() },
-        floatingActionButton = { PickImageFromCamera(navController = navController)
+
+        bottomBar = {
+
+            if(currentRoute == Screen.Splash.route){
+
+            }else{ MyBottomBar()}
+                    },
+        floatingActionButton = {
+            if(currentRoute == Screen.Splash.route){
+
+            }else{
+                PickImageFromCamera(navController = navController)
+            }
         },
 
         isFloatingActionButtonDocked = true,
@@ -64,9 +72,12 @@ fun KukuApp(
     ) { padding ->
         NavHost(
             navController = navController,
-            startDestination = Screen.Home.route,
+            startDestination = Screen.Splash.route,
             modifier = Modifier.padding(padding)
         ) {
+            composable(route = Screen.Splash.route){
+            AnimationSplashScreen(navController)
+            }
             composable(Screen.Home.route) {
                 HomeScreen(navigateToDetail = { id ->
                     navController.navigate(Screen.Detail.createRoute(id))
@@ -84,7 +95,7 @@ fun KukuApp(
                 ProfileScreen(onBackClick = { navController.navigateUp() })
             }
             composable(route = Screen.Result.route) {
-                ResultScreen(onBackClick = { navController.navigateUp() },"" )
+                ResultScreen(onBackClick = { navController.navigateUp() },"" ,navController)
             }
         }
     }
@@ -154,12 +165,3 @@ private fun prepareBottomMenu(): List<BottomMenuItem> {
 
 data class BottomMenuItem(val label: String, val icon: ImageVector)
 
-
-@Preview(showBackground = true)
-@Composable
-fun DessertAppPreview() {
-    KukukuApplicationTheme {
-        KukuApp()
-//        MyUI()
-    }
-}

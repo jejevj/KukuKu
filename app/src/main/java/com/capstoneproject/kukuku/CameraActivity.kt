@@ -17,6 +17,7 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
+import androidx.navigation.NavHostController
 import com.capstoneproject.kukuku.databinding.ActivityCameraBinding
 import com.capstoneproject.kukuku.ui.screen.result.ResultScreen
 import com.capstoneproject.kukuku.ui.theme.KukukuApplicationTheme
@@ -24,7 +25,6 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
-
 
 class CameraActivity : AppCompatActivity() {
 
@@ -72,7 +72,6 @@ class CameraActivity : AppCompatActivity() {
 
 
     }
-
     private fun takePhoto() {
         // Get a stable reference of the modifiable image capture use case
         val imageCapture = imageCapture ?: return
@@ -112,7 +111,7 @@ class CameraActivity : AppCompatActivity() {
                         Log.d(TAG, msg)
                         setContent {
                             KukukuApplicationTheme {
-                                ResultScreen(onBackClick = {}, output.savedUri.toString())
+                                ResultScreen(onBackClick = {}, output.savedUri.toString(), navController = NavHostController(this@CameraActivity))
                             }
 
                         }

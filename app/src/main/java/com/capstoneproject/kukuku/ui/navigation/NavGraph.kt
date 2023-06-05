@@ -16,13 +16,13 @@ fun SetupNavGraph(navController: NavHostController){
             AnimationSplashScreen(navController)
         }
         composable(route = Screen.Home.route){
-            KukuApp()
+            KukuApp(navController = navController)
         }
         composable(route = Screen.Profile.route){
             ProfileScreen(onBackClick = {})
         }
         composable(route = Screen.Result.route){
-            ResultScreen(onBackClick = {navController.navigateUp()},"")
+            ResultScreen(onBackClick = {navController.navigateUp()},"",navController)
         }
     }
 }
@@ -33,13 +33,13 @@ fun SetupNavGraph2(navController: NavHostController){
             AnimationSplashScreen(navController)
         }
         composable(route = Screen.Home.route){
-            KukuApp()
+            KukuApp(navController = navController)
         }
         composable(route = Screen.Profile.route){
             ProfileScreen(onBackClick = {})
         }
         composable(route = Screen.Result.route){
-            ResultScreen(onBackClick = {navController.navigateUp()},"")
+            ResultScreen(onBackClick = {navController.navigateUp()},"", navController )
         }
     }
 }

@@ -13,28 +13,9 @@ import androidx.navigation.compose.rememberNavController
 import com.capstoneproject.kukuku.CameraActivity
 import com.capstoneproject.kukuku.R
 
-    @Composable
+@Composable
     fun PickImageFromCamera(navController: NavHostController = rememberNavController()) {
         val mContext = LocalContext.current
-//    val path = mContext.getExternalFilesDir(null)!!.absolutePath
-//
-//
-//    var bitmap  by remember{ mutableStateOf<Bitmap?>(null) }
-//
-//    val launcher = rememberLauncherForActivityResult(
-//        contract = ActivityResultContracts.TakePicturePreview()){
-//        bitmap = it
-//
-//        val image = bitmap
-//
-//        val tempFile = File(path , "tempFileName.jpg")
-//        val fOut = FileOutputStream(tempFile)
-//        image!!.compress(Bitmap.CompressFormat.JPEG , 100 , fOut)
-//
-//        Log.i("kilo", image.toString())
-//        fOut.close()
-//        navController.navigate(Screen.Result.route)
-//    }
         FloatingActionButton(
             onClick = {
                 mContext.startActivity(Intent(mContext, CameraActivity()::class.java))

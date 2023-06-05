@@ -1,194 +1,190 @@
 [
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_profile_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_logo.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable/logo.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/profile_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_profile_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/profile.png"
     },
     {
-        "merged": "com.capstoneproject.kukuku.app-merged_res-69:/layout_activity_camera.xml.flat",
-        "source": "com.capstoneproject.kukuku.app-main-71:/layout/activity_camera.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/xml_backup_rules.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/xml/backup_rules.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-anydpi-v26_profile.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-anydpi-v26/profile.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_splash_screen.jpg.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable/splash_screen.jpg"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/profile_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_profile_pic.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable/profile_pic.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_splash_screen.jpg.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable/splash_screen.jpg"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_profile_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/profile.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/profile.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/xml/data_extraction_rules.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/xml_data_extraction_rules.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_transparent_image.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable/transparent_image.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-anydpi-v26_profile_round.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-anydpi-v26/profile_round.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/xml_file_paths.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/xml/file_paths.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/profile_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-anydpi-v26_profile.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-anydpi-v26/profile.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/profile.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_profile.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_profile_pic.png.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable/profile_pic.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/layout_activity_camera.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/layout/activity_camera.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_logo.png.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable/logo.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/xml_backup_rules.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_profile_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable/ic_baseline_photo_camera_24.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_profile.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_profile.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/profile.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/profile_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/drawable/ic_launcher_background.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/profile_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_profile_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/profile_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_profile_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_profile.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_profile_background.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/drawable/profile_background.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-hdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-hdpi/profile_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_profile_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_profile_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/profile_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_profile_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/profile_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_profile.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_profile_round.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/profile_round.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-mdpi_profile_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-mdpi/profile_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxxhdpi_profile_round.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxxhdpi/profile_round.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/layout_activity_camera.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/layout/activity_camera.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-anydpi-v26_profile_round.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-anydpi-v26/profile_round.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/drawable_transparent_image.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/drawable/transparent_image.xml"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_profile_background.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/drawable/profile_background.xml"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-hdpi_profile.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-hdpi/profile.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.capstoneproject.kukuku.app-debug-75:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/drawable_ic_baseline_photo_camera_24.xml.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-71:/drawable/ic_baseline_photo_camera_24.xml"
-    },
-    {
-        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-merged_res-69:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-debug-70:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.capstoneproject.kukuku.app-merged_res-74:/xml_file_paths.xml.flat",
+        "source": "com.capstoneproject.kukuku.app-main-76:/xml/file_paths.xml"
     }
 ]

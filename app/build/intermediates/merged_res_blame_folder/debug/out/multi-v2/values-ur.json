@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.capstoneproject.kukuku.app-mergeDebugResources-67:/values-ur/values-ur.xml",
+            "outputFile": "com.capstoneproject.kukuku.app-mergeDebugResources-72:/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/janggawijaya/.gradle/caches/transforms-3/51d34e6fb42e7a1d828e2d40d2683e02/transformed/appcompat-1.6.1/res/values-ur/values-ur.xml",
