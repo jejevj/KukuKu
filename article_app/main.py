@@ -1,30 +1,17 @@
-from flask import Flask, jsonify, request, json
-from google.cloud import storage
+#import module
 from db_connect import db_connection
-from google.oauth2 import service_account
+from post_article import get_time, upload_to_bucket
+
+#import library
+from flask import Flask, request, jsonify
 import os
-from flask import Flask, render_template, jsonify
-from datetime import datetime
-
-credentials = service_account.Credentials.from_service_account_file('key.json')
-
-client = storage.Client(credentials=credentials)
-bucket_name = 'kukuku-capstone-project-upload'
-bucket = client.bucket(bucket_name)
-
-
-def download_image_from_storage(bucket_name, file_name):
-    blob = bucket.blob(file_name)
-    temp_image_path = '/tmp/' + file_name
-    blob.download_to_filename(temp_image_path)
-    return temp_image_path
 
 
 app = Flask(__name__)
 
 
 @app.route('/')
-def home_base():
+def homebase():
     return jsonify({'message': 'server is running'})
  
     
@@ -41,18 +28,9 @@ def post_article():
     if file is None:
         return jsonify({'message': 'no file uploaded'}), 400
     
-    now = datetime.now()
-    date_time = now.strftime("%Y-%m-%d %H:%M:%S")
+    date_time, file_date_time = get_time()
 
-    folder_path = 'artikel'
-    file_name = folder_path + '/' + date_time + '-' + file.filename
-    blob = bucket.blob(file_name)
-    
-    
-    blob.upload_from_file(file)
-    print("File successfully uploaded to bucket.")
-
-    image_path = 'https://storage.googleapis.com/' + bucket_name + '/' + file_name
+    image_path = upload_to_bucket(file_date_time, file)
     
     
     try:
@@ -60,29 +38,31 @@ def post_article():
         
         try:
             with connection.cursor() as cursor:
-                print(image_path)
-                sql = f"INSERT INTO artikel (judul, isi, tanggal, storage_url) VALUES ('{title}','{content}', '{date_time}', '{image_path}');"
-                print(sql)
-                ret = cursor.execute(sql)
-                cursor.fetchall()
-                print('pass here ?')
+                sql = f"INSERT INTO kukuku_db.artikel (judul, isi, tanggal, storage_url) VALUES ('{title}','{content}', '{date_time}', '{image_path}');"
+                cursor.execute(sql)
+                connection.commit()
+
+                sql = f"SELECT * FROM artikel ORDER BY artikel_id DESC LIMIT 1;"
+                cursor.execute(sql)
+                result = cursor.fetchall()
+                
+                response = {
+                    'data': result
+                }
         finally:
             connection.close()
         
-         
-        return jsonify({'data': ret}), 200
+        return jsonify(response)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-    
         
 @app.route('/getarticle', methods=['GET'])
 def get_article():
-    
     connection = db_connection()
     
     try:
         with connection.cursor() as cursor:
-            sql = f"SELECT * FROM artikel;"
+            sql = f"SELECT * FROM artikel ORDER BY artikel_id DESC LIMIT 10;"
             cursor.execute(sql)
             result = cursor.fetchall()
             
