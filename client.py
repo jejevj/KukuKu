@@ -3,5 +3,5 @@ import os
 
 
 client = storage.Client()
-bucket_name = 'kukuku-capstone-project-upload'
+bucket_name = os.environ.get('BUCKET_NAME')
 bucket = client.bucket(bucket_name)
