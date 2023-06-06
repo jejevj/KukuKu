@@ -4,6 +4,14 @@ WORKDIR /app
 
 RUN pip install --upgrade pip
 
+RUN apt-get update && apt-get install -y curl
+
+RUN mkdir -p /app/ml_model
+
+RUN curl -o /app/ml_model/keras_model.h5 https://storage.googleapis.com/kukuku-capstone-project-ml-model/keras_model.h5 || True
+
+RUN curl -o /app/ml_model/my_model.h5 https://storage.googleapis.com/kukuku-capstone-project-ml-model/my_model.h5 || True
+
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
