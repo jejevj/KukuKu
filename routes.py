@@ -1,11 +1,12 @@
 from flask import jsonify, request
 from tensorflow.keras.preprocessing import image
-from model import model1, model2
-from client import bucket, bucket_name
-from db_connect import db_connection
 import os
 import numpy as np
 
+# Modul lokal
+from model import model1, model2
+from db_connect import db_connection
+from client import bucket, bucket_name
 
 def download_image_from_storage(bucket_name, file_name):
     blob = bucket.blob(file_name)
@@ -35,7 +36,7 @@ def predict():
         response = jsonify({'message': 'No file uploaded'})
         return response, 400
     
-    # Upload image to Storage
+    # Menguload gambar ke Cloud Storage
     blob = bucket.blob(file.filename)
     blob.upload_from_file(file)
     
@@ -85,7 +86,7 @@ def predict():
         else:
             response = {
                 'result': 'unrecognized'
-            }, 
+            } 
         os.remove(image_path)
         return jsonify(response), 200
     

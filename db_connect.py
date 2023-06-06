@@ -5,10 +5,10 @@ import os
 def db_connection():
     try:
         connection = pymysql.connect(
-            host = os.environ.get('DB_HOST'),
-            user = os.environ.get('DB_USER'),
-            password = os.environ.get('DB_PASSWORD'),
-            database = os.environ.get('DB_NAME'),
+            host = '34.101.71.246',
+            user = 'admin',
+            password = 'C23-PS120',
+            database = 'kukuku_db',
             charset = 'utf8mb4',
             cursorclass = pymysql.cursors.DictCursor
         )
