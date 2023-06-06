@@ -1,3 +1,4 @@
 __pycache__
 ml_model
 model_app
+model/my_model.h5
