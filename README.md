@@ -1,11 +1,16 @@
 # KukuKu Back-End
 Back-End part of KukuKu Mobile App for Bangkit Capstone Project 2023
 
-# Prerequisite
+### Prerequisite
 - Python
 - Flask
+- Google Cloud Platform
 
-[![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxiaJVzT5W7BbUZ4rjWEr8DrPmn0xsrqRkuK540CSn1N8Hd7xAr59gTRr8ZdhrocUKb8&usqp=CAU)](https://www.dicoding.com/programs/bangkit)
+### Endpoint
+**/predict** <br>
+Method: `POST`
+Parameters: 
+- file (image)
 
 In this repository we've already push the code and working together to pass the bangkit capstone project. Before we explain this project for the details, let we introduce our self:
 ### Team Member
@@ -15,9 +20,6 @@ In this repository we've already push the code and working together to pass the 
 4. C038DSY0866 - Khaela Fortunela (CC)
 5. C328DKX3817 - Hendri Sibarani (CC)
 6.	A037DSX1087 - J Angga Wijaya (MD)
-
-### Project Details
-...N/A
 
 ### Technology / Tools
  Tools we've used:
