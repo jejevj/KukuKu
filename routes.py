@@ -7,6 +7,10 @@ import numpy as np
 from model import model1, model2
 from db_connect import db_connection
 from client import bucket, bucket_name
+from model import model1, model2
+from client import bucket, bucket_name
+from db_connect import db_connection
+
 
 def download_image_from_storage(bucket_name, file_name):
     blob = bucket.blob(file_name)
