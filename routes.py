@@ -30,7 +30,13 @@ def home():
     return response, 200
 
 def predict():
+    api_key = request.headers.get('Authorization')
     file = request.files.get('file')
+    
+    if api_key == '':
+        return jsonify({'message': 'Authentication Required'})
+    elif api_key != os.environ.get('API_KEY'):
+        return jsonify({'message': 'Access Denied'}), 401
     
     if file is None:
         response = jsonify({'message': 'No file uploaded'})
