@@ -6,10 +6,10 @@ import numpy as np
 # Modul lokal
 from model import model1, model2
 from db_connect import db_connection
-from client import bucket, bucket_name
+from client import bucket
 
-def download_image_from_storage(bucket_name, file_name):
-    blob = bucket.blob(file_name)
+def download_image_from_storage(file_name, folder_name):
+    blob = bucket.blob(os.path.join(folder_name, file_name))
     temp_image_path = '/tmp/' + file_name
     blob.download_to_filename(temp_image_path)
     return temp_image_path
@@ -43,13 +43,14 @@ def predict():
         return response, 400
     
     # Menguload gambar ke Cloud Storage
-    blob = bucket.blob(file.filename)
+    folder_name = 'nail_images'
+    blob = bucket.blob(os.path.join(folder_name ,file.filename))
     blob.upload_from_file(file)
     
     nail_classes = ['Acral Lentiginous Melanoma', "Beau's Line", 'Blue Finger', 'Clubbing', 'Healthy Nail', 'Koilonychia', "Muehrcke's Lines", 'Onychogryphosis', 'Pitting', 'Terry Nails']
     
     try:
-        image_path = download_image_from_storage(bucket_name, file.filename)
+        image_path = download_image_from_storage(file.filename, folder_name)
         prediction = predict_image(transform_image(image_path), model1)
         predicted_class = np.argmax(prediction)
         
