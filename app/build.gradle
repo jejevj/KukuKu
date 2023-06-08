@@ -81,7 +81,7 @@ dependencies {
 
     implementation "com.google.accompanist:accompanist-permissions:0.18.0"
 
-//    lottie
+    //lottie
     implementation 'com.airbnb.android:lottie-compose:5.2.0'
 
     //Icons
@@ -89,4 +89,10 @@ dependencies {
 
     // Coil
     implementation "io.coil-kt:coil-compose:1.4.0"
+    //API
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+    implementation "org.glassfish:javax.annotation:10.0-b28"
+
 }

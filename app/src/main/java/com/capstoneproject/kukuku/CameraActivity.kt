@@ -3,12 +3,12 @@ package com.capstoneproject.kukuku
 import android.Manifest
 import android.content.ContentValues
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
 import android.widget.Toast
-import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
@@ -17,17 +17,24 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import androidx.navigation.NavHostController
 import com.capstoneproject.kukuku.databinding.ActivityCameraBinding
-import com.capstoneproject.kukuku.ui.screen.result.ResultScreen
-import com.capstoneproject.kukuku.ui.theme.KukukuApplicationTheme
+import com.capstoneproject.kukuku.network.ApiConfig
+import com.capstoneproject.kukuku.network.FileUploadResponse
+import com.capstoneproject.kukuku.utils.uriToFile
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.MultipartBody
+import okhttp3.RequestBody.Companion.asRequestBody
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
 class CameraActivity : AppCompatActivity() {
-
+    private var getFile: File? = null
     private lateinit var viewBinding: ActivityCameraBinding
 
     private var imageCapture: ImageCapture? = null
@@ -107,14 +114,21 @@ class CameraActivity : AppCompatActivity() {
                 override fun
                         onImageSaved(output: ImageCapture.OutputFileResults){
                         val msg = "Photo capture succeeded: ${output.savedUri}"
-                        Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                         Log.d(TAG, msg)
-                        setContent {
-                            KukukuApplicationTheme {
-                                ResultScreen(onBackClick = {}, output.savedUri.toString(), navController = NavHostController(this@CameraActivity))
-                            }
-
+                        val selectedImg = output.savedUri as Uri
+                        selectedImg.let { uri ->
+                            val myFile = uriToFile(uri, this@CameraActivity)
+                            getFile = myFile
                         }
+                        uploadImage()
+//                        val myFile = File.uriToFile(output.savedUri, this@CameraActivity)
+//                        setContent {
+//                            KukukuApplicationTheme {
+//                                ResultScreen(onBackClick = {}, output.savedUri.toString(), navController = NavHostController(this@CameraActivity))
+//                            }
+//
+//                        }
 
                 }
 
@@ -182,5 +196,41 @@ class CameraActivity : AppCompatActivity() {
                     add(Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 }
             }.toTypedArray()
+    }
+
+    private fun uploadImage() {
+        if (getFile != null) {
+            val file = getFile as File
+            val requestImageFile = file.asRequestBody("image/jpeg".toMediaType())
+            val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
+                "file",
+                file.name,
+                requestImageFile
+            )
+            val apiService = ApiConfig().getApiService()
+            val uploadImageRequest = apiService.uploadImage(imageMultipart)
+            uploadImageRequest.enqueue(object : Callback<FileUploadResponse> {
+                override fun onResponse(
+                    call: Call<FileUploadResponse>,
+                    response: Response<FileUploadResponse>
+                ) {
+                    Log.d("OI",response.body().toString())
+                    Log.d("DATANYA NIH OM", response.body()!!.data[0].tips.toString())
+                    if (response.isSuccessful) {
+                        val responseBody = response.body()
+                        if (responseBody != null) {
+                            Toast.makeText(this@CameraActivity, responseBody.result, Toast.LENGTH_SHORT).show()
+                        }
+                    } else {
+                        Toast.makeText(this@CameraActivity, response.message(), Toast.LENGTH_SHORT).show()
+                    }
+                }
+                override fun onFailure(call: Call<FileUploadResponse>, t: Throwable) {
+                    Toast.makeText(this@CameraActivity, t.message, Toast.LENGTH_SHORT).show()
+                }
+            })
+        } else {
+            Toast.makeText(this@CameraActivity, "Silakan masukkan berkas gambar terlebih dahulu.", Toast.LENGTH_SHORT).show()
+        }
     }
 }
