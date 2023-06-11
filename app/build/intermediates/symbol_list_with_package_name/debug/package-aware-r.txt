@@ -1852,6 +1852,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_100tb
+drawable ic_baseline_home_24
 drawable ic_baseline_photo_camera_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2004,6 +2005,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_home
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2141,6 +2143,7 @@ id inward
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
+id iv_kuku
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2381,6 +2384,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_acc
+id tv_deskripsi
+id tv_resiko
+id tv_result
+id tv_tips
 id unchecked
 id uniform
 id unlabeled
@@ -2475,6 +2483,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera
+layout activity_result
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2593,6 +2602,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string akurasi
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -2607,6 +2617,7 @@ string close_drawer
 string close_sheet
 string default_error_message
 string default_popup_window_title
+string deskripsi
 string dropdown_menu
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2614,7 +2625,9 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hello_header
 string hide_bottom_view_on_scroll_behavior
+string homepage
 string icon_content_description
+string im
 string in_progress
 string indeterminate
 string item_view_role_description
@@ -2676,6 +2689,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string nama
 string navigation_menu
 string not_selected
 string off
@@ -2687,6 +2701,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string range_end
 string range_start
+string resiko
 string search_menu_title
 string selected
 string start_capture
@@ -2701,6 +2716,7 @@ string tbk_below
 string template_percent
 string thankyou
 string tips
+string tips1
 string welcome
 string yct
 style AlertDialog_AppCompat

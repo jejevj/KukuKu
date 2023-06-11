@@ -1,9 +1,9 @@
 package com.capstoneproject.kukuku.di
 
-import com.capstoneproject.kukuku.data.DessertRepository
+import com.capstoneproject.kukuku.data.ArticleRepository
 
 object Injection {
-    fun provideRepository(): DessertRepository {
-        return DessertRepository.getInstance()
+    fun provideRepository(): ArticleRepository {
+        return ArticleRepository.getInstance()
     }
 }

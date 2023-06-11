@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/janggawijaya/.gradle/caches/transforms-3/693ff44221fb48905b9b7ec1a747e7b6/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.accompanist:accompanist-permissions:0.18.0] /Users/janggawijaya/.gradle/caches/transforms-3/476a226327e1441e2ade17d0b068efdb/transformed/accompanist-permissions-0.18.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.airbnb.android:lottie-compose:5.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/c5f020648c9caee2ce7b0b36cf1c39bd/transformed/lottie-compose-5.2.0/AndroidManifest.xml:2:1-9:12
@@ -100,22 +100,22 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/janggawijaya/.gr
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/janggawijaya/.gradle/caches/transforms-3/50ad69488ec3cf62d31165c3a61f58db/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [io.github.aakira:napier-android-debug:1.4.1] /Users/janggawijaya/.gradle/caches/transforms-3/87518797295d12a64dcf064888f5d4aa/transformed/napier-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.compose.ui:ui-util:1.2.1] /Users/janggawijaya/.gradle/caches/transforms-3/a8eafdb6faad55a351d79d6ad7d5fb4c/transformed/ui-util-1.2.1/AndroidManifest.xml:17:1-23:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
 	package
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-55:12
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:2:11-69
@@ -142,7 +142,7 @@ ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuk
 	android:name
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:12:19-61
 application
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:5-53:19
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:14:5-60:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:23:5-27:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.2.0] /Users/janggawijaya/.gradle/caches/transforms-3/427c0d771337827adc9354fbd7314ee3/transformed/ui-test-manifest-1.2.0/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/janggawijaya/.gradle/caches/transforms-3/594a6fc501a578c16d7efdc4e5bcf756/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
@@ -191,56 +191,64 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jang
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:21:9-55
 	android:dataExtractionRules
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:16:9-65
-activity#com.capstoneproject.kukuku.CameraActivity
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:9-31:20
+activity#com.capstoneproject.kukuku.ResultActivity
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:23:9-30:20
 	android:exported
 		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:27:13-69
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-69
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:25:13-43
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:24:13-43
 meta-data#android.app.lib_name
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:13-30:36
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:27:13-29:36
 	android:value
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:30:17-33
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:29:17-33
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:29:17-52
-activity#com.capstoneproject.kukuku.MainActivity
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:9-42:20
-	android:label
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:28:17-52
+activity#com.capstoneproject.kukuku.CameraActivity
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:31:9-38:20
 	android:exported
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-37
 	android:theme
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:36:13-59
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:33:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:37:13-41:29
-action#android.intent.action.MAIN
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:17-69
-	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:38:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:40:17-77
-	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:40:27-74
-provider#androidx.core.content.FileProvider
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:44:9-52:20
-	android:grantUriPermissions
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:48:13-47
-	android:authorities
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:46:13-61
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:32:13-43
+activity#com.capstoneproject.kukuku.MainActivity
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:39:9-49:20
+	android:label
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:42:13-45
 	android:exported
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:47:13-37
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:43:13-59
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:45:13-62
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:40:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:47:27-74
+provider#androidx.core.content.FileProvider
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:51:9-59:20
+	android:grantUriPermissions
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:55:13-47
+	android:authorities
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:53:13-61
+	android:exported
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:52:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:49:13-51:54
+ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:56:13-58:54
 	android:resource
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:51:17-51
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:58:17-51
 	android:name
-		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:50:17-67
+		ADDED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml:57:17-67
 uses-sdk
 INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/janggawijaya/Documents/Studi Independen/Bangkit Capstone/Kukuku/app/src/main/AndroidManifest.xml

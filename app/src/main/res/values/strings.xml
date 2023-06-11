@@ -18,4 +18,11 @@
     <string name="step">Step to Use App!</string>
     <string name="step_below">Check that your input picture is clear and easy to see!</string>
     <string name="thankyou">Thankyou for using KukuKu App!</string>
+    <string name="nama">Nama</string>
+    <string name="akurasi">Akurasi</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="resiko">Resiko</string>
+    <string name="tips1">Tips</string>
+    <string name="homepage">Homepage</string>
+    <string name="im">image</string>
 </resources>

@@ -20,9 +20,9 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.capstoneproject.kukuku.R
 import com.capstoneproject.kukuku.di.Injection
-import com.capstoneproject.kukuku.model.DessertList
+import com.capstoneproject.kukuku.model.ArticleList
 import com.capstoneproject.kukuku.ui.common.UiState
-import com.capstoneproject.kukuku.ui.common.components.DessertsCatalog
+import com.capstoneproject.kukuku.ui.common.components.ArticleCatalog
 import com.capstoneproject.kukuku.ui.screen.ViewModelFactory
 
 @Composable
@@ -38,7 +38,7 @@ fun HomeScreen(
             }
             is UiState.Success -> {
 
-                HomeListData(dessertList = it.data, navigateToDetail = navigateToDetail)
+                HomeListData(articleList = it.data, navigateToDetail = navigateToDetail)
 
             }
             is UiState.Error -> {}
@@ -48,7 +48,7 @@ fun HomeScreen(
 
 @Composable
 fun HomeListData(
-    dessertList: List<DessertList>,
+    articleList: List<ArticleList>,
     navigateToDetail: (Long) -> Unit
 ) {
 //    Text(text = Resources.getSystem().getString(R.string.tbk) )
@@ -76,13 +76,13 @@ fun HomeListData(
 
             LazyRow {
 
-                items(dessertList) {
-                    DessertsCatalog(
-                        name = it.dessert.dessert_name,
-                        highlights = it.dessert.dessert_highlights,
-                        image = it.dessert.dessert_picture,
+                items(articleList) {
+                    ArticleCatalog(
+                        name = it.article.dessert_name,
+                        highlights = it.article.dessert_highlights,
+                        image = it.article.dessert_picture,
                         modifier = Modifier.clickable {
-                            navigateToDetail(it.dessert.id)
+                            navigateToDetail(it.article.id)
                         })
                 }
 

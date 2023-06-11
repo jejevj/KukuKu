@@ -2,11 +2,11 @@ package com.capstoneproject.kukuku.ui.screen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.capstoneproject.kukuku.data.DessertRepository
+import com.capstoneproject.kukuku.data.ArticleRepository
 import com.capstoneproject.kukuku.ui.screen.detail.DetailViewModel
 import com.capstoneproject.kukuku.ui.screen.home.HomeViewModel
 
-class ViewModelFactory(private val repository: DessertRepository) :
+class ViewModelFactory(private val repository: ArticleRepository) :
     ViewModelProvider.NewInstanceFactory() {
 
     @Suppress("UNCHECKED_CAST")

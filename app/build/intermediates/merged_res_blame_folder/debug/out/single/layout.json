@@ -1,6 +1,14 @@
 [
     {
-        "merged": "com.capstoneproject.kukuku.app-mergeDebugResources-73:/layout/activity_camera.xml",
-        "source": "com.capstoneproject.kukuku.app-main-76:/layout/activity_camera.xml"
+        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-mergeDebugResources-73:/layout/activity_camera.xml",
+        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-76:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-mergeDebugResources-73:/layout/activity_result.xml",
+        "source": "/Users/janggawijaya/.gradle/daemon/7.5/com.capstoneproject.kukuku.app-main-76:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.capstoneproject.kukuku.app-mergeDebugResources-73:/layout/activity_result.xml",
+        "source": "com.capstoneproject.kukuku.app-main-76:/layout/activity_result.xml"
     }
 ]

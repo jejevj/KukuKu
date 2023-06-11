@@ -41,10 +41,10 @@ fun DetailScreen(
             is UiState.Success -> {
                 val data = it.data
                 DetailLaptop(
-                    dessert_name = data.dessert.dessert_name,
-                    dessert_highlights = data.dessert.dessert_highlights,
-                    dessert_country = data.dessert.dessert_country,
-                    dessert_picture = data.dessert.dessert_picture,
+                    dessert_name = data.article.dessert_name,
+                    dessert_highlights = data.article.dessert_highlights,
+                    dessert_country = data.article.dessert_country,
+                    dessert_picture = data.article.dessert_picture,
                     onBackClick = navigateBack)
             }
             is UiState.Error -> {}
@@ -105,10 +105,10 @@ fun DetailLaptop(
 fun DetailLaptopPreview() {
     KukukuApplicationTheme {
         DetailLaptop(
-            dessert_name = "dessert name",
-            dessert_highlights = "dessert highlights",
-            dessert_country = "dessert country",
-            dessert_picture = "dessert picture",
+            dessert_name = "article name",
+            dessert_highlights = "article highlights",
+            dessert_country = "article country",
+            dessert_picture = "article picture",
             onBackClick = {}
         )
     }

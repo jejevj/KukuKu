@@ -10,31 +10,39 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Multipart
 import retrofit2.http.POST
 import retrofit2.http.Part
-
 data class FileUploadResponse(
 
-    @SerializedName("data")
-    val data: List<DataItem>,
-
     @field:SerializedName("result")
-    val result: String,
+    val result: String? = null,
 
-    @field:SerializedName("accuracy")
-    val accuracy: String,
+    @field:SerializedName("data")
+    val data: DataItem? = null,
 
     @field:SerializedName("prediction")
-    val prediction: Any? = null
+    val prediction: String? = null,
+
+    @field:SerializedName("accuracy")
+    val accuracy: Any? = null
 )
 
-class DataItem{
+data class DataItem(
+    @field:SerializedName("resiko")
+    val resiko: String? = null,
+
+    @field:SerializedName("nama_penyakit")
+    val namaPenyakit: String? = null,
 
     @field:SerializedName("deskripsi")
-    val deskripsi: String? = null
+    val deskripsi: String? = null,
+
+    @field:SerializedName("gejala")
+    val gejala: String? = null,
 
     @field:SerializedName("tips")
     val tips: String? = null
+)
 
-}
+
 
 interface ApiService {
     @Multipart
@@ -52,7 +60,7 @@ class ApiConfig {
             .addInterceptor(loggingInterceptor)
             .build()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://backend-api-jwhdd7agea-et.a.run.app/")
+            .baseUrl("https://backend-api-vil4aiqokq-et.a.run.app/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

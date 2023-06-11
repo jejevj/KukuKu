@@ -2,6 +2,7 @@ package com.capstoneproject.kukuku
 
 import android.Manifest
 import android.content.ContentValues
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
@@ -32,6 +33,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
+
 
 class CameraActivity : AppCompatActivity() {
     private var getFile: File? = null
@@ -122,13 +124,13 @@ class CameraActivity : AppCompatActivity() {
                             getFile = myFile
                         }
                         uploadImage()
-//                        val myFile = File.uriToFile(output.savedUri, this@CameraActivity)
 //                        setContent {
 //                            KukukuApplicationTheme {
 //                                ResultScreen(onBackClick = {}, output.savedUri.toString(), navController = NavHostController(this@CameraActivity))
 //                            }
-//
 //                        }
+//                        val myFile = File.uriToFile(output.savedUri, this@CameraActivity)
+
 
                 }
 
@@ -201,6 +203,7 @@ class CameraActivity : AppCompatActivity() {
     private fun uploadImage() {
         if (getFile != null) {
             val file = getFile as File
+
             val requestImageFile = file.asRequestBody("image/jpeg".toMediaType())
             val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
                 "file",
@@ -214,12 +217,18 @@ class CameraActivity : AppCompatActivity() {
                     call: Call<FileUploadResponse>,
                     response: Response<FileUploadResponse>
                 ) {
-                    Log.d("OI",response.body().toString())
-                    Log.d("DATANYA NIH OM", response.body()!!.data[0].tips.toString())
                     if (response.isSuccessful) {
                         val responseBody = response.body()
                         if (responseBody != null) {
+                            val intent = Intent(this@CameraActivity.baseContext,ResultActivity::class.java)
+                            intent.putExtra("pred", responseBody.prediction)
+                            intent.putExtra("file", file.absolutePath)
+                            intent.putExtra("acc", responseBody.accuracy.toString())
+                            intent.putExtra("desc", responseBody.data?.deskripsi)
+                            intent.putExtra("gejala", responseBody.data?.gejala)
+                            intent.putExtra("tips", responseBody.data?.tips.toString())
                             Toast.makeText(this@CameraActivity, responseBody.result, Toast.LENGTH_SHORT).show()
+                            startActivity(intent)
                         }
                     } else {
                         Toast.makeText(this@CameraActivity, response.message(), Toast.LENGTH_SHORT).show()
@@ -234,3 +243,4 @@ class CameraActivity : AppCompatActivity() {
         }
     }
 }
+

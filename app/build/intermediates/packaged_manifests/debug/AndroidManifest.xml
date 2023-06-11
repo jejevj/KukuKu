@@ -41,6 +41,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.KukukuApplication" >
         <activity
+            android:name="com.capstoneproject.kukuku.ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.capstoneproject.kukuku.CameraActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
