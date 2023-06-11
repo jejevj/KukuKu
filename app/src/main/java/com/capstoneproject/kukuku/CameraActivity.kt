@@ -123,6 +123,7 @@ class CameraActivity : AppCompatActivity() {
                             val myFile = uriToFile(uri, this@CameraActivity)
                             getFile = myFile
                         }
+                        Toast.makeText(this@CameraActivity, "Mohon Tunggu", Toast.LENGTH_SHORT).show()
                         uploadImage()
 //                        setContent {
 //                            KukukuApplicationTheme {
@@ -227,7 +228,7 @@ class CameraActivity : AppCompatActivity() {
                             intent.putExtra("desc", responseBody.data?.deskripsi)
                             intent.putExtra("gejala", responseBody.data?.gejala)
                             intent.putExtra("tips", responseBody.data?.tips.toString())
-                            Toast.makeText(this@CameraActivity, responseBody.result, Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@CameraActivity, "Kuku Terdeteksi", Toast.LENGTH_SHORT).show()
                             startActivity(intent)
                         }
                     } else {
