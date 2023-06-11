@@ -58,15 +58,15 @@ def predict():
             
             try:
                 with connection.cursor() as cursor:
-                    sql = f"SELECT nama_penyakit, deskripsi, gejala, resiko, tips FROM penyakit_kuku WHERE nama_penyakit = '{prediction_label}';"
+                    sql = f"SELECT nama_penyakit, deskripsi, gejala, resiko, tips FROM jenis_penyakit_kuku WHERE nama_penyakit = '{prediction_label}';"
                     cursor.execute(sql)
                     result = cursor.fetchall()
                     
                     nama_penyakit = result[0]['nama_penyakit']
                     deskripsi = result[0]['deskripsi']
                     gejala = result[0]['gejala']
-                    resiko = result[0]['resiko'].split('\n')
-                    tips = result[0]['tips'].split('\n')
+                    resiko = result[0]['resiko']
+                    tips = result[0]['tips']
                     
                     data = {
                         'nama_penyakit': nama_penyakit,
