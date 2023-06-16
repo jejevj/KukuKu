@@ -40,3 +40,10 @@ In order to facilitate connection between Cloud Run service and SQL instance, we
 We used Cloud Storage buckets to store our images and models.
 
 ![image](https://github.com/jejevj/KukuKu/assets/72397657/68e6609d-f25f-49dd-89f6-5b64310ee53b)
+
+8. Cloud Build Triggers
+
+We implemented Continous Deployment using Cloud Build Triggers.
+
+![image](https://github.com/jejevj/KukuKu/assets/72397657/28a4623b-467e-4c52-b9cb-8e8e50f84538)
+
