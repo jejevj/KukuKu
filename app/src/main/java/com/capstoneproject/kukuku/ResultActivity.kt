@@ -1,5 +1,6 @@
 package com.capstoneproject.kukuku
 
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +19,11 @@ class ResultActivity : AppCompatActivity() {
         binding.tvDeskripsi.text = "Deskripsi\t: "+intent.getStringExtra("desc").toString()
         binding.tvResiko.text = "Gejala\t: "+intent.getStringExtra("gejala").toString()
         binding.tvTips.text = "Tips\t: "+intent.getStringExtra("tips").toString()
+        binding.btnHome.setOnClickListener{
+            val intent = Intent(this@ResultActivity.baseContext,MainActivity::class.java)
+            startActivity(intent)
+
+        }
         setContentView(binding.root)
     }
 }

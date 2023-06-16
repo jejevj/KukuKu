@@ -88,12 +88,12 @@ fun DetailLaptop(
             )
             Spacer(modifier = Modifier.height(20.dp))
             Text(
-                text = "More Information",
+                text = "Informasi Lanjutan",
                 fontWeight = FontWeight.Bold,
                 fontSize = 20.sp
             )
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = "Country : ${dessert_country}")
+            Text(text = "Sumber : ${dessert_country}")
             Spacer(modifier = Modifier.height(20.dp))
         }
     }

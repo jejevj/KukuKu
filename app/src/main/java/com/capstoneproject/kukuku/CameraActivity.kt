@@ -220,7 +220,7 @@ class CameraActivity : AppCompatActivity() {
                 ) {
                     if (response.isSuccessful) {
                         val responseBody = response.body()
-                        if (responseBody != null) {
+                        if (responseBody != null && responseBody.result!="unrecognized") {
                             val intent = Intent(this@CameraActivity.baseContext,ResultActivity::class.java)
                             intent.putExtra("pred", responseBody.prediction)
                             intent.putExtra("file", file.absolutePath)
@@ -230,6 +230,8 @@ class CameraActivity : AppCompatActivity() {
                             intent.putExtra("tips", responseBody.data?.tips.toString())
                             Toast.makeText(this@CameraActivity, "Kuku Terdeteksi", Toast.LENGTH_SHORT).show()
                             startActivity(intent)
+                        }else{
+                            Toast.makeText(this@CameraActivity, "Kuku Tidak Terdeteksi", Toast.LENGTH_SHORT).show()
                         }
                     } else {
                         Toast.makeText(this@CameraActivity, response.message(), Toast.LENGTH_SHORT).show()

@@ -15,7 +15,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
 drawable profile_background
-drawable profile_pic
 drawable splash_screen
 drawable transparent_image
 id btn_home

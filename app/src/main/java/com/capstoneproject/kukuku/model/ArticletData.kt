@@ -4,93 +4,36 @@ object ArticletData {
     val articles = listOf(
         Article(
             1,
-            "Tiramisu",
-            "Even though tiramisù is actually a fairly recent invention, this article of coffee-soaked ladyfingers layered with mascarpone cream enjoys an iconic status among Italian articles. Its name stems from the phrase tirami sù, an Italian expression which literally means pick me up, a reference to the uplifting effects of sugar, liquor, and coffee.\n" +
-                    "\n" +
-                    "The origins of tiramisù are heavily disputed between Veneto and Friuli-Venezia Giulia regions, but it is often suggested that the first was made in Veneto in the early 1960s. The earliest documented recipe for tiramisù (interestingly, without alcohol!) was printed in the 1981 spring edition of Vin Veneto magazine in an article on coffee-based articles by Giuseppe Maffioli, a renowned food critic and member of the Italian Academy of Cuisine. ",
-            "ITALY",
+            "Kuku Yang Sehat",
+            "Kuku yang sehat akan terlihat berwarna merah muda dengan warna sedikit lebih gelap di bagian tepinya. Sebaliknya, ciri-ciri kuku tidak sehat adalah kuku dan ujung jari berwarna pucat. Kondisi ini bisa terjadi akibat kurangnya asupan darah ke ujung bagian tubuh. " +
+                    "\n Kuku yang sehat umumnya berwarna merah muda karena mengikuti warna dasar jaringan di bawahnya. Kutikula merupakan kulit yang tepat berada di atas matriks kuku. Memiliki kutikula cukup penting. ",
+            "www.klikdokter.com",
             "https://i.ibb.co/R7Wz27S/kuku-sehat.png"),
         Article(
             2,
-            "Crème brûlée",
-            "This traditional egg custard article consists of egg yolks, cream, sugar, and vanilla, with a hard, burnt, toffee crust. The combination is cooked, transferred into ramekins, poached in a bain-marie, then well chilled. The chilled custard is typically set in wide, flat dishes, and is then topped with brown sugar which is either caramelized under a broiler or with a blowtorch.",
-            "FRANCE)",
+            "Kuku Yang Tidak sehat",
+            "Kuku yang sehat akan terlihat berwarna merah muda dengan warna sedikit lebih gelap di bagian tepinya. Sebaliknya, ciri-ciri kuku tidak sehat adalah kuku dan ujung jari berwarna pucat.\n" +
+                    "\n" +
+                    "Kondisi ini bisa terjadi akibat kurangnya asupan darah ke ujung bagian tubuh. Salah satu penyebabnya adalah anemia, yaitu kondisi kurangnya kadar protein sel darah merah pengangkut oksigen alias hemoglobin (Hb). \n" +
+                    "\n" +
+                    "Masalah jantung juga bisa menjadi penyebab kuku dan ujung jari pucat. Sebab, kondisi ini membuat jantung tidak sanggup memompa darah ke ujung jari dan kuku. \n" +
+                    "\nBerbeda dengan warna pucat, leukonikia adalah kondisi ketika kuku berwarna putih atau memiliki bercak putih. Jika bercak putih hilang sendiri, mungkin kondisi ini disebabkan oleh trauma atau benturan pada kuku.",
+            "www.klikdokter.com)",
             "https://i.ibb.co/ThsJfZy/kuku-tidak-sehat.png"
         ),
 
         Article(
             3,
-            "Soufflé au chocolat",
-            "Chocolate soufflé is an exquisite French article that combines dark chocolate with a creamy egg yolk base and fluffy egg whites. Typically prepared in small ramekins, it should always be lightly baked in order to stay soft and velvety in the middle, with a delectable, crunchy top.\n" +
-                    "\n" +
-                    "Just like other soufflé varieties, the chocolate version is also considered to be technically challenging, but if done properly, it results in a wonderfully delicate sweet treat. Even though it is not considered to be one of the first soufflé versions, which were originally prepared as savory dishes, today it is one of the most popular interpretations of this internationally acclaimed article.",
-            "FRANCE",
-            "https://www.cremducale.it/wp-content/uploads/2019/05/mono-souffle%CC%80-cioccolato.png"
+            "Tips Merawat Kuku",
+            "1. Jaga Kuku Supaya Kering" +
+                    "\n2. Potong Kuku Seperlunya Saja" +
+                    "\n3. Hindari Menggigit Kuku" +
+                    "\n4. Jangan Terlalu Sering Menggunakan Cat Kuku" +
+                    "\n5. Konsumsi Makanan Yang Bergizi" +
+                    "\n6. Pakai Minyak Alami untuk Merawat Kuku" +
+                    "\n7. Rawat Kuku Panjang Dengan Tepat",
+            "www.traveloka.com/health",
+            "https://i.ibb.co/ZdM8CPL/tips.png"
         ),
-
-        Article(
-            4,
-            "Sernik",
-            "Sernik is a cheesecake from Poland, stemming from old Christian and Jewish traditions. It is made with eggs, sugar, and twaróg - a type of curd cheese that has been used in articles for hundreds of years. It is believed that sernik originated in the 17th century, when King Jan III Sobieski brought the recipe with him after his victory against the Turks at the Battle of Vienna.\n" +
-                    "\n" +
-                    "Today, there are many varieties of sernik, some baked, some unbaked, but it is usually made on a layer of crumbly cake. Often times raisins, chocolate sauce, or fruits are also added to sernik, and one of the most popular varieties of the article has a sponge cake as its base and is covered with jelly and fruit on top. ",
-            "POLAND",
-            "https://spolemkielce.pl/wp-content/uploads/2021/07/Sernik-domowy.jpg"
-        ),
-
-        Article(
-            5,
-            "Cheesecake Brownies",
-            "Thick and fudgy chocolate brownies and a tangy cream cheese filling are combined to create one of the true American culinary classics - the cheesecake brownie. Regular chocolate brownies are one of the favorite American articles that have been internationally recognized as a quick, satisfying, and scrumptious chocolate treat.\n" +
-                    "\n" +
-                    "The cheesecake variety employs the same rich and dense chocolate mixture as the base of the cake, which is topped with velvety cream cheese. Generously sweetened and infused with vanilla essence, the cheese is the perfect refreshing complement to the thick brownie sponge. ",
-            "USA",
-            "https://www.abccakeshop.com/wp-content/uploads/2016/08/AA_Clean_4.png"
-        ),
-
-        Article(
-            6,
-            "Namagashi",
-            "Namagashi, meaning raw sweets, is a Japanese sweet and a type of wagashi, consisting of natural ingredients such as fruit jellies or sweetened bean paste. It is considered an edible piece of art due to its beautiful design, reflecting seasonal and natural shapes such as flowers and leaves.\n" +
-                    "\n" +
-                    "Namagashi is especially popular during Japanese tea ceremonies, and because it is the most delicate of all types of wagashi and made daily, it must be consumed while it is still fresh, preferably accompanied by a cup of refreshing matcha tea. Today, every confectionery store in Japan usually has its own collection of unique, elegant, seasonal namagashi.",
-            "JAPAN",
-            "https://png.pngtree.com/png-clipart/20230309/original/pngtree-mid-autumn-mid-autumn-festival-daytime-moon-cake-indoor-food-png-image_8981093.png"
-        ),
-
-        Article(
-            7,
-            "Gelato cioccolato",
-            "Cioccolato is a variety of Italian gelato that is prepared with chocolate and cocoa powder as the key ingredients alongside cream, sugar, and milk. The final product, if made properly and churned at low speed, should have a dense and velvety texture, and a rich, dark brown color.\n" +
-                    "\n" +
-                    "Not much is known about the origins of chocolate gelato, although it is a fact that the first frozen chocolate recipe had been published in Naples in 1692, in a book called The Modern Steward.",
-            "ITALY",
-            "https://3.bp.blogspot.com/-EgJnD3APbmM/YDTxtofLTCI/AAAAAAAAFLk/tJbSVjmZlbou-j4QH12Yc-sRo7LWqrc3ACLcBGAsYHQ/w400-h266/es%2Bkrim.jpg"
-        ),
-
-        Article(
-            8,
-            "Khao niao mamuang",
-            "This traditional Thai rice pudding is a favorite way to finish any Thai meal. The dish is prepared with glutinous rice that is first steamed, then doused in sweetened coconut milk. Lastly, the rice is served sided with slices of fresh mango. This simple article is incredibly popular, and it can be found at virtually any eatery in Thailand.",
-            "THAILAND",
-            "https://t3.ftcdn.net/jpg/05/98/61/30/360_F_598613034_45cwtUNRrLUPtey3JUIrefZB6VyEMdUV.jpg"
-        ),
-
-        Article(
-            9,
-            "Klepon",
-            "Klepon (also known as onde onde in Malaysia and Singapore) is a sweet rice cake treat you’ll want to whip up again and again. Bite into hot, bursting gula melaka, surrounded by chewy pandan and soft coconut, in this awesome Indonesian snack.\n" +
-                    "Klepon is an Indonesian sweet treat made from glutinous rice flour combined with the amazing flavour combination of pandan, coconut and palm sugar. It’s a popular street food snack, often found at morning and afternoon markets around Indonesia.",
-            "INDONESIA",
-            "https://www.ikikoue.com/wp-content/uploads/2020/04/Kelepon-Rev-08_edit.jpg"
-        ),
-
-        Article(
-            10,
-            "Appeltaart",
-            "Appeltaart is a traditional Dutch apple pie that is very often accompanied by a cup of hot coffee. Although it is essentially the same as most apple pies, Dutch appeltaart differs from the classic American apple pie in many ways: it is baked in a spring-form pan, making it deeper; it is drier on the interior; it is full of big chunks of apple, currants, and raisins, and it is full of speculoos spices such as cinnamon, lemon juice, and other warm spices.",
-            "NETHERLAND",
-            "https://www.despecialiteitenbakkerij.nl/wp-content/uploads/2020/06/Classic-dutch-cropped.png"
-        )
     )
 }

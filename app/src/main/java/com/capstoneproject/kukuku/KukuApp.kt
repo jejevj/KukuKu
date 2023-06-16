@@ -57,7 +57,8 @@ fun KukuApp(
 
             if(currentRoute == Screen.Splash.route){
 
-            }else{ MyBottomBar()}
+            }else{ MyBottomBar(navController = navController)
+            }
                     },
         floatingActionButton = {
             if(currentRoute == Screen.Splash.route){
@@ -104,7 +105,7 @@ fun KukuApp(
 
 
 @Composable
-fun MyBottomBar() {
+fun MyBottomBar(navController: NavHostController) {
     // items list
     val bottomMenuItemsList = prepareBottomMenu()
 
@@ -134,6 +135,11 @@ fun MyBottomBar() {
                 selected = (selectedItem == menuItem.label),
                 onClick = {
                     selectedItem = menuItem.label
+                    if(selectedItem=="profile"){
+                        navController.navigate(Screen.Profile.route)
+                    }else{
+                        navController.navigate(Screen.Home.route)
+                    }
 //                    Toast.makeText(
 //                        contextForToast,
 //                        menuItem.label, Toast.LENGTH_SHORT

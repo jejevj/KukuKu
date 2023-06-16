@@ -19,11 +19,11 @@
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginBottom="50dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="42dp"
         android:elevation="2dp"
-        android:text="@string/take_photo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Take Picture"
         app:layout_constraintEnd_toStartOf="@id/vertical_centerline" />
 
     <androidx.constraintlayout.widget.Guideline
